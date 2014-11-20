@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block list %}
+          <ul class="nav nav-sidebar">
+            <li><a href="/builds/home">Home</a></li>
+ 
+            <li><a href="/builds/mybuilds">My Builds</a></li>
+	     <li><a href="/builds/public_builds">Public Builds</a></li>
+            <li><a href="/builds/new_build">Create New Builds</a></li>
+            <li><a href="/builds/edit">Edit Build</a></li>
+          </ul>
+	      {% endblock %}
+
+{% block bodycontent %}
+
+{% if error%}
+
+<h2>Error! It seems like we cannot access this build from our Database.</h2>
+<p> <a href = "home/"> Return Home </a> </p>
+
+{% else %}
+
+<h2>Error! It seems like you are not trying to make a new build.</h2> 
+<p> <a href = "home/"> Return Home </a> </p>
+
+{% endif %}
+{% endblock %}

@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+
+
+{% block list %}
+          <ul class="nav nav-sidebar">
+            <li><a href="/builds/home">Home</a></li>
+ 
+            <li><a href="/builds/mybuilds">My Builds</a></li>
+	        <li><a href="/builds/public_builds">Public Builds</a></li>
+            <li><a href="/builds/new_build">Create New Builds</a></li>
+            <li><a href="/builds/edit">Edit Build</a></li>
+          </ul>
+	      {% endblock %}
+
+
+
+{% block bodycontent  %}
+<form method="post" action ="/builds/search/"> 
+{% csrf_token %}
+<fieldset>
+  <div class="form-group">
+    <label for="search_text">Search</label>
+    <input type="text" class="form-control" name="search_text" placeholder="Enter Search Query" required/>
+  </div>
+
+<button type="submit" class="btn btn-default">Submit</button>
+</fieldset>
+</form>
+
+
+{% if builds.count > 0 %}
+
+
+{% for abuild in builds %}
+ 
+            <div>
+       <!-- Takes the build Name  -->
+       <h3> Build: {{abuild.object.name}} by {{abuild.object.user}}  </h3>
+       </div>
+  
+       <div class = "jumbotron">
+       <!-- Lists the build items -->
+         <div> 
+             <h4> Motherboard </h4>
+             <p>  {{abuild.object.moboPart}}  </p>
+         </div>
+
+         <div>
+             <h4> Processor </h4>
+             <p>  {{abuild.object.cpuPart}}  </p>
+         </div>
+
+         <div>
+             <h4> Video Card </h4>
+             <p>  {{abuild.object.gpuListing}}  </p>
+         </div>
+
+         <div>
+             <h4> Memory </h4>
+             <p>  {{abuild.object.memPart}}  </p>
+         </div>
+
+         <div>
+             <h4> Hard Drive </h4>
+             <p>  {{abuild.object.hdPart}}  </p>
+         </div>
+
+         <div>
+             <h4> Case </h4>
+             <p>  {{abuild.object.casePart}}  </p>
+         </div>
+
+         <div>
+            <p class = "text-right"> <footer>Created:{{abuild.object.time}}</footer> </p>
+               <p class ="text-left"> <a href="/builds/show/{{abuild.object.name.split|join:'__'}}" class="btn btn-primary"> View </a> </p>
+               
+         </div>
+
+       </div>
+              
+{% endfor %}
+       
+{% elif mode %}
+
+<h4> No results found! </h4>
+{% endif %}          
+ 
+{% endblock %}
+

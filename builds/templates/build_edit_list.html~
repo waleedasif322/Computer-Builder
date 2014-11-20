@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block list %}
+          <ul class="nav nav-sidebar">
+            <li><a href="/builds/home">Home</a></li>
+ 
+            <li><a href="/builds/mybuilds">My Builds</a></li>
+	     <li><a href="/builds/public_builds">Public Builds</a></li>
+            <li><a href="/builds/new_build">Create New Builds</a></li>
+            <li class = active><a href="/builds/edit">Edit Build</a></li>
+          </ul>
+	      {% endblock %}
+
+{% block bodycontent %}
+
+{%if builds%}
+
+{%for abuild in builds%}
+<div>   
+<p>
+	<a href="/builds/edit_build/{{abuild.name.split|join:'__'}}">{{abuild.name}} </a> ${{abuild.price}}  - Created: {{abuild.time}}   	
+	<a class="btn btn-xs btn-danger" href="/builds/delete/{{abuild.name.split|join:'__'}}"> Delete </a> 
+</p>
+</div>
+{% endfor %}
+{% else %}
+<h2> You do not have any builds. Please use the create build tab to make one. </h2>
+
+{% endif %}
+{% endblock %}

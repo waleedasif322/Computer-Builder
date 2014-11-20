@@ -1,0 +1,8 @@
+{% extends base.html %}
+
+{% block bodycontent %}
+
+<h1>Sorry! It seems like {{build_name}} doest not exist in our database.</h1> 
+<p> <a href = "home/"> Return Home </a> </p>
+
+{% endblock %}

@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+
+{% block list %}
+          <ul class="nav nav-sidebar">
+            <li class = "active"><a href="/builds/home">Home</a></li>
+ 
+            <li><a href="/builds/mybuilds">My Builds</a></li>
+	    <li><a href="/builds/public_builds">Public Builds</a></li>
+            <li><a href="/builds/new_build">Create New Builds</a></li>
+            <li><a href="/builds/edit">Edit Build</a></li>
+          </ul>
+	      {% endblock %}
+
+{% block bodycontent %}
+
+<div>
+    {% if builds %}
+
+     {% for abuild in builds %}
+       <div>
+       <!-- Takes the build Name  -->
+       <h3> Build: {{abuild.name}} by {{abuild.user}}  </h3>
+       </div>
+  
+       <div class = "jumbotron">
+       <!-- Lists the build items -->
+         <div> 
+             <h4> Motherboard </h4>
+             <p>  {{abuild.moboPart}}  </p>
+         </div>
+
+         <div>
+             <h4> Processor </h4>
+             <p>  {{abuild.cpuPart}}  </p>
+         </div>
+
+         <div>
+             <h4> Video Card </h4>
+             <p>  {{abuild.gpuListing}}  </p>
+         </div>
+
+         <div>
+             <h4> Memory </h4>
+             <p>  {{abuild.memPart}}  </p>
+         </div>
+
+         <div>
+             <h4> Hard Drive </h4>
+             <p>  {{abuild.hdPart}}  </p>
+         </div>
+
+         <div>
+             <h4> Case </h4>
+             <p>  {{abuild.casePart}}  </p>
+         </div>
+
+         <div>
+               <p class = "text-right"> <footer>Created:{{abuild.time}}</footer> </p>
+               <p class ="text-left"> <a href="/builds/show/{{abuild.name.split|join:'__'}}" class="btn btn-primary"> View </a> </p>
+               
+         </div>
+
+       </div>
+
+     {% endfor %}
+
+ {% else %}
+ <h2> No Builds! </h2>
+ {% endif %}
+</div>
+
+{% endblock %}

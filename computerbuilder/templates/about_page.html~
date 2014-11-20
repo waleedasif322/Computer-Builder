@@ -1,0 +1,32 @@
+{% extends "cover_page.html" %}
+
+{% block styling %}
+  <ul class="nav masthead-nav">
+    <li><a href="/">Home</a></li>
+    <li class="active"><a href="/about">About</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+{% endblock %}
+
+
+{%block bodycontent%}
+	<div class= "inner cover">
+	<p class="lead">
+The only sites where people can put together a complete computer
+build are company-specific. That is, when a user puts together a
+computer build on Dell, Alienware, or Digital Storm, the user is forced
+to use that company’s cases, cooling solutions, and assembly
+services, which all end up being very expensive compared to
+buying similar parts from Newegg or Amazon and assembling them.</p>
+<p class = "lead">
+Newegg is great for seeing what products are available for a single
+component (at a certain cost, from a certain manufacturer, etc.)
+but there is no way to easily compose a list of parts that work
+together and fit a budget using their website. That’s where
+Computer Builder comes in handy, by allowing user to make their
+own builds and post it on the site and have other users share their
+thoughts about it. 
+         </p>
+ 	</div>
+{% endblock %}
+

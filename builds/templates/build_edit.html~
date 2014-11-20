@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+
+{% block list %}
+          <ul class="nav nav-sidebar">
+            <li><a href="/builds/home">Home</a></li>
+ 
+            <li><a href="/builds/mybuilds">My Builds</a></li>
+	    <li><a href="/builds/public_builds">Public Builds</a></li>
+            <li><a href="/builds/new_build">Create New Builds</a></li>
+            <li class = "active"><a href="/builds/edit">Edit Build</a></li>
+          </ul>
+	      {% endblock %}
+
+{% block bodycontent %}
+
+
+<form class="form-horizontal" method="post" action="/builds/build_confirmation/"> {% csrf_token %}
+        <fieldset>
+
+            <!-- Form Name -->
+            <legend>Edit Build</legend>
+             
+            <!-- Text Input -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="name_input">Build Name</label>  
+                <div class="col-md-6">
+                    <input id="name_input" name="name_input" placeholder="Name your Build" class="form-control input-md" type="text" value="{{build_name}}" required>
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="cpu_input">Processor</label>  
+                <div class="col-md-6">
+                    <input id="cpu_input" name="cpu_input" placeholder="processor" class="form-control input-md" type="text" value = "{{cpu}}">
+    
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="mobo_input">Motherboard</label>  
+                <div class="col-md-6">
+                    <input id="mobo_input" name="mobo_input" placeholder="motherboard" class="form-control input-md" type="text" value = "{{mobo}}">
+    
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="mem_input">Memory</label>  
+                <div class="col-md-6">
+                    <input id="mem_input" name="mem_input" placeholder="memory" class="form-control input-md" type="text" value = "{{mem}}">
+    
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="gpu_input">Video Card</label>  
+                <div class="col-md-6">
+                    <input id="gpu_input" name="gpu_input" placeholder="video card" class="form-control input-md" type="text" value = "{{gpu}}">
+    
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="hdd_input">Hard Drive</label>  
+                <div class="col-md-6">
+                    <input id="hdd_input" name="hdd_input" placeholder="hard drive" class="form-control input-md" type="text" value = "{{hdd}}">
+    
+            </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="case_input">Case</label>  
+                <div class="col-md-6">
+                    <input id="case_input" name="case_input" placeholder="case" class="form-control input-md" type="text" value = "{{case}}">
+    
+                </div>
+            </div>
+
+       
+          <!-- Selection Input -->
+         <div class="form-group">
+                <label class="col-md-4 control-label" for="access_right">Access Right</label>  
+                <div class="col-md-6">
+                    <select name="access_right" placeholder="access_right" class = "form_control">
+                      {% if private %}
+                      <option value = "pub"> Public </option>
+                      <option value = "pri" selected = 'selected'> Private </option>
+                      {% else %}
+                      <option value = "pub" selected = 'selected'> Public </option>
+                      <option value = "pri"> Private </option>
+                      {% endif %}
+                    </select>
+                </div>
+            </div>
+          
+
+            <div class="form-group">
+    		<div class="col-sm-offset-2 col-sm-10">
+      			<button type="Submit" class="btn btn-default">Save Build</button>
+    		</div>
+  	    </div>
+
+        </fieldset>
+    </form>
+
+<script language="javascript" src="/static/js/new_build_jquery.js"></script>
+
+{% endblock%}

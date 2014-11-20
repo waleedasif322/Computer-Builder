@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block list %}
+          <ul class="nav nav-sidebar">
+            <li><a href="/builds/home">Home</a></li>
+ 
+            <li><a href="/builds/mybuilds">My Builds</a></li>
+	    <li><a href="/builds/public_builds">Public Builds</a></li>
+            <li><a href="/builds/new_build">Create New Builds</a></li>
+            <li><a href="/builds/edit">Edit Build</a></li>
+          </ul>
+	      {% endblock %}
+
+{% block bodycontent %}
+
+{% if new_build %}
+<h2>Your new Build, {{build_name}} has been successfully created!</h2>
+{% else %}
+<h2>Your new Build, {{build_name}} has been successfully edited! </h2>
+{% endif %} 
+<p> <a href = "/builds/home/"> Return Home </a> </p>
+
+{% endblock %}

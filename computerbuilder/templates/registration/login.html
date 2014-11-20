@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    {#<link rel="shortcut icon" href="../../assets/ico/favicon.ico">#}
+
+    <title>Log in</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/login.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <form class="form-signin" method="post" action="?next={{ next|default:"/builds/home"}}" role="form"> {% csrf_token %}
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <dl>
+        <dt><label for="id_username">Username:</label>{% if form.username.errors %} <span class="error">{{ form.username.errors|join:", " }}</span>{% endif %}</dt>
+	<dd class="form-control">{{ form.username }}</dd>
+	<dt><label for="id_password">Password:</label>{% if form.password.errors %} <span class="error">{{ form.password.errors|join:", " }}</span>{% endif %}</dt>
+	<dd class="form-control">{{ form.password }}</dd>
+	<dt><input type="submit" class="btn btn-lg btn-primary btn-block" value="Log in" /></dt>
+	</dl>
+	</form>
+
+
+	{% block content-related %}
+	<p class="form-signin">Don't have an account? You can <a href="/accounts/register/">sign
+	up</a>.
+	{% endblock %}
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  </body>
+</html>
+

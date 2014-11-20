@@ -1,0 +1,4865 @@
+[
+{
+    "pk": 1, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_logentry", 
+        "name": "Can add log entry", 
+        "content_type": 1
+    }
+},
+{
+    "pk": 2, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_logentry", 
+        "name": "Can change log entry", 
+        "content_type": 1
+    }
+},
+{
+    "pk": 3, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_logentry", 
+        "name": "Can delete log entry", 
+        "content_type": 1
+    }
+},
+{
+    "pk": 4, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_permission", 
+        "name": "Can add permission", 
+        "content_type": 2
+    }
+},
+{
+    "pk": 5, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_permission", 
+        "name": "Can change permission", 
+        "content_type": 2
+    }
+},
+{
+    "pk": 6, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_permission", 
+        "name": "Can delete permission", 
+        "content_type": 2
+    }
+},
+{
+    "pk": 7, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_group", 
+        "name": "Can add group", 
+        "content_type": 3
+    }
+},
+{
+    "pk": 8, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_group", 
+        "name": "Can change group", 
+        "content_type": 3
+    }
+},
+{
+    "pk": 9, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_group", 
+        "name": "Can delete group", 
+        "content_type": 3
+    }
+},
+{
+    "pk": 10, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_user", 
+        "name": "Can add user", 
+        "content_type": 4
+    }
+},
+{
+    "pk": 11, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_user", 
+        "name": "Can change user", 
+        "content_type": 4
+    }
+},
+{
+    "pk": 12, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_user", 
+        "name": "Can delete user", 
+        "content_type": 4
+    }
+},
+{
+    "pk": 13, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_contenttype", 
+        "name": "Can add content type", 
+        "content_type": 5
+    }
+},
+{
+    "pk": 14, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_contenttype", 
+        "name": "Can change content type", 
+        "content_type": 5
+    }
+},
+{
+    "pk": 15, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_contenttype", 
+        "name": "Can delete content type", 
+        "content_type": 5
+    }
+},
+{
+    "pk": 16, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_session", 
+        "name": "Can add session", 
+        "content_type": 6
+    }
+},
+{
+    "pk": 17, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_session", 
+        "name": "Can change session", 
+        "content_type": 6
+    }
+},
+{
+    "pk": 18, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_session", 
+        "name": "Can delete session", 
+        "content_type": 6
+    }
+},
+{
+    "pk": 19, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_comment", 
+        "name": "Can add comment", 
+        "content_type": 7
+    }
+},
+{
+    "pk": 20, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_comment", 
+        "name": "Can change comment", 
+        "content_type": 7
+    }
+},
+{
+    "pk": 21, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_comment", 
+        "name": "Can delete comment", 
+        "content_type": 7
+    }
+},
+{
+    "pk": 22, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "can_moderate", 
+        "name": "Can moderate comments", 
+        "content_type": 7
+    }
+},
+{
+    "pk": 23, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_commentflag", 
+        "name": "Can add comment flag", 
+        "content_type": 8
+    }
+},
+{
+    "pk": 24, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_commentflag", 
+        "name": "Can change comment flag", 
+        "content_type": 8
+    }
+},
+{
+    "pk": 25, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_commentflag", 
+        "name": "Can delete comment flag", 
+        "content_type": 8
+    }
+},
+{
+    "pk": 26, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_site", 
+        "name": "Can add site", 
+        "content_type": 9
+    }
+},
+{
+    "pk": 27, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_site", 
+        "name": "Can change site", 
+        "content_type": 9
+    }
+},
+{
+    "pk": 28, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_site", 
+        "name": "Can delete site", 
+        "content_type": 9
+    }
+},
+{
+    "pk": 29, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_buildstable", 
+        "name": "Can add builds table", 
+        "content_type": 10
+    }
+},
+{
+    "pk": 30, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_buildstable", 
+        "name": "Can change builds table", 
+        "content_type": 10
+    }
+},
+{
+    "pk": 31, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_buildstable", 
+        "name": "Can delete builds table", 
+        "content_type": 10
+    }
+},
+{
+    "pk": 32, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_mobolisting", 
+        "name": "Can add mobo listing", 
+        "content_type": 11
+    }
+},
+{
+    "pk": 33, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_mobolisting", 
+        "name": "Can change mobo listing", 
+        "content_type": 11
+    }
+},
+{
+    "pk": 34, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_mobolisting", 
+        "name": "Can delete mobo listing", 
+        "content_type": 11
+    }
+},
+{
+    "pk": 35, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_cpulisting", 
+        "name": "Can add cpu listing", 
+        "content_type": 12
+    }
+},
+{
+    "pk": 36, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_cpulisting", 
+        "name": "Can change cpu listing", 
+        "content_type": 12
+    }
+},
+{
+    "pk": 37, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_cpulisting", 
+        "name": "Can delete cpu listing", 
+        "content_type": 12
+    }
+},
+{
+    "pk": 38, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_caselisting", 
+        "name": "Can add case listing", 
+        "content_type": 13
+    }
+},
+{
+    "pk": 39, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_caselisting", 
+        "name": "Can change case listing", 
+        "content_type": 13
+    }
+},
+{
+    "pk": 40, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_caselisting", 
+        "name": "Can delete case listing", 
+        "content_type": 13
+    }
+},
+{
+    "pk": 41, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_memlisting", 
+        "name": "Can add mem listing", 
+        "content_type": 14
+    }
+},
+{
+    "pk": 42, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_memlisting", 
+        "name": "Can change mem listing", 
+        "content_type": 14
+    }
+},
+{
+    "pk": 43, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_memlisting", 
+        "name": "Can delete mem listing", 
+        "content_type": 14
+    }
+},
+{
+    "pk": 44, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_hdlisting", 
+        "name": "Can add hd listing", 
+        "content_type": 15
+    }
+},
+{
+    "pk": 45, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_hdlisting", 
+        "name": "Can change hd listing", 
+        "content_type": 15
+    }
+},
+{
+    "pk": 46, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_hdlisting", 
+        "name": "Can delete hd listing", 
+        "content_type": 15
+    }
+},
+{
+    "pk": 47, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_gpulisting", 
+        "name": "Can add gpu listing", 
+        "content_type": 16
+    }
+},
+{
+    "pk": 48, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_gpulisting", 
+        "name": "Can change gpu listing", 
+        "content_type": 16
+    }
+},
+{
+    "pk": 49, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_gpulisting", 
+        "name": "Can delete gpu listing", 
+        "content_type": 16
+    }
+},
+{
+    "pk": 50, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_migrationhistory", 
+        "name": "Can add migration history", 
+        "content_type": 17
+    }
+},
+{
+    "pk": 51, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_migrationhistory", 
+        "name": "Can change migration history", 
+        "content_type": 17
+    }
+},
+{
+    "pk": 52, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_migrationhistory", 
+        "name": "Can delete migration history", 
+        "content_type": 17
+    }
+},
+{
+    "pk": 53, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_userprofile", 
+        "name": "Can add user profile", 
+        "content_type": 18
+    }
+},
+{
+    "pk": 54, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_userprofile", 
+        "name": "Can change user profile", 
+        "content_type": 18
+    }
+},
+{
+    "pk": 55, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_userprofile", 
+        "name": "Can delete user profile", 
+        "content_type": 18
+    }
+},
+{
+    "pk": 56, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_registrationprofile", 
+        "name": "Can add registration profile", 
+        "content_type": 19
+    }
+},
+{
+    "pk": 57, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_registrationprofile", 
+        "name": "Can change registration profile", 
+        "content_type": 19
+    }
+},
+{
+    "pk": 58, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_registrationprofile", 
+        "name": "Can delete registration profile", 
+        "content_type": 19
+    }
+},
+{
+    "pk": 1, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "waleed", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": true, 
+        "is_staff": true, 
+        "last_login": "2014-05-16T02:15:35.114Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$12000$5BcK0vOCcYze$Ps2vmge+OhNVMDDqSN92YpJix/h1N+y44tDiGn+781w=", 
+        "email": "waleedasif322@gmail.com", 
+        "date_joined": "2014-05-16T02:09:49.886Z"
+    }
+},
+{
+    "pk": "0faji37g9dfirazm1itmwwn1b93t2qff", 
+    "model": "sessions.session", 
+    "fields": {
+        "expire_date": "2014-05-30T02:15:35.226Z", 
+        "session_data": "Y2ZjNmYyN2FkMjliM2E4NzI4ZmMyZWZmMzBiZDYxY2MwYjVlZmQ1ZTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MX0="
+    }
+},
+{
+    "pk": 1, 
+    "model": "sites.site", 
+    "fields": {
+        "domain": "example.com", 
+        "name": "example.com"
+    }
+},
+{
+    "pk": 1, 
+    "model": "builds.buildstable", 
+    "fields": {
+        "name": "First Build", 
+        "price": "579.9", 
+        "hdPart": " SAMSUNG 840 EVO MZ-7TE250LW 2.5\" TLC Internal Solid State Drive (SSD) With Notebook Bundle Kit ", 
+        "access_r": "pub", 
+        "moboPart": " ASUS M5A78L-M LX PLUS AM3+ AMD 760G + SB710 Micro ATX AMD Motherboard ", 
+        "user": 1, 
+        "time": "2014-05-16T02:24:34.165Z", 
+        "gpuListing": " nVIDIA GeForce GT 610 1GB PCI Express PCI-E x16 Single Slot Video Graphics Card ", 
+        "casePart": " Thermaltake Commander MS-I Epic Edition Black / Red SECC ATX Mid Tower Computer Case ", 
+        "cpuPart": " AMD A4-6320 Richland 3.8GHz Socket FM2 65W Desktop Processor AMD Radeon HD8000 Series AD6320OKHLBOX ", 
+        "memPart": " 2GB (2X1GB) DDR Memory ASUS PC-DL Deluxe "
+    }
+},
+{
+    "pk": 1, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS A55M-A FM2 AMD A55 (Hudson D2) HDMI Micro ATX Native HDMI/DVI Outputs AMD Motherboard With UEFI BIOS ", 
+        "moboPrice": "59.99"
+    }
+},
+{
+    "pk": 2, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS M5A78L-M LX PLUS AM3+ AMD 760G + SB710 Micro ATX AMD Motherboard ", 
+        "moboPrice": "56.99"
+    }
+},
+{
+    "pk": 3, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock AM1B-M AM1 SATA 6Gb/s USB 3.0 Micro ATX AMD Motherboard ", 
+        "moboPrice": "33.99"
+    }
+},
+{
+    "pk": 4, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " BIOSTAR A960D+ AM3+ AMD 760G + SB710 Micro ATX AMD Motherboard ", 
+        "moboPrice": "69.49"
+    }
+},
+{
+    "pk": 5, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " Open Box: ASUS M5A78L-M LX PLUS AM3+ AMD 760G + SB710 Micro ATX AMD Motherboard ", 
+        "moboPrice": "59.99"
+    }
+},
+{
+    "pk": 6, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ECS A55F2-M4(1.0) FM2 AMD A55 (Hudson D2) Micro ATX AMD Motherboard ", 
+        "moboPrice": "45.99"
+    }
+},
+{
+    "pk": 7, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS A55BM-A/USB3 FM2+ / FM2 AMD A55 (Hudson D2) USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "69.99"
+    }
+},
+{
+    "pk": 8, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS A88XM-PLUS/CSM FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "89.99"
+    }
+},
+{
+    "pk": 9, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " MSI A88X-G45 GAMING FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI ATX AMD Motherboard (Assassins creed limited edition) ", 
+        "moboPrice": "119.99"
+    }
+},
+{
+    "pk": 10, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock AM1B-ITX AM1 SATA 6Gb/s USB 3.0 HDMI Mini ITX AMD Motherboard ", 
+        "moboPrice": "39.99"
+    }
+},
+{
+    "pk": 11, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS A55M-A/USB3 FM2 AMD A55 (Hudson D2) USB 3.0 HDMI Micro ATX USB 3.0 and Native HDMI/DVI Outputs AMD Motherboard With UEFI BIOS ", 
+        "moboPrice": "69.99"
+    }
+},
+{
+    "pk": 12, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-F2A55M-S1 FM2+ AMD A55 (Hudson D2) Micro ATX AMD Motherboard ", 
+        "moboPrice": "49.99"
+    }
+},
+{
+    "pk": 13, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " For arduino Nano 3.0 Atmel ATmega328 Mini-USB Board with USB Cable BEST PRICE ", 
+        "moboPrice": "19.99"
+    }
+},
+{
+    "pk": 14, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " BIOSTAR Hi-Fi A85W FM2 AMD A85X (Hudson D4) SATA 6Gb/s USB 3.0 HDMI ATX AMD Motherboard ", 
+        "moboPrice": "79.99"
+    }
+},
+{
+    "pk": 15, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock 970 Extreme3 R2.0 AM3+ AMD 970 SATA 6Gb/s USB 3.0 ATX AMD Motherboard ", 
+        "moboPrice": "94.99"
+    }
+},
+{
+    "pk": 16, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " MSI 990FXA-GD80 V2 AM3+ AMD 990FX + SB950 SATA 6Gb/s USB 3.0 ATX AMD Motherboard ", 
+        "moboPrice": "169.09"
+    }
+},
+{
+    "pk": 17, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS A55BM-PLUS/CSM FM2+ / FM2 AMD A55 (Hudson D2) USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "69.89"
+    }
+},
+{
+    "pk": 18, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ECS A75F2-M FM2 AMD A75 (Hudson D3) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "69.99"
+    }
+},
+{
+    "pk": 19, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock FM2A75 PRO4+ FM2+ / FM2 AMD A75 (Hudson D3) SATA 6Gb/s USB 3.0 HDMI ATX AMD Motherboard ", 
+        "moboPrice": "74.99"
+    }
+},
+{
+    "pk": 20, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ECS A75F2-M2(1.0A) FM2 AMD A75 (Hudson D3) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "65.99"
+    }
+},
+{
+    "pk": 21, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS A88X-PRO FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI AMD Motherboard ", 
+        "moboPrice": "128.99"
+    }
+},
+{
+    "pk": 22, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " MSI A88X-G41 PC Mate FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI ATX AMD Motherboard ", 
+        "moboPrice": "72.99"
+    }
+},
+{
+    "pk": 23, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " MSI A88XM GAMING FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "109.99"
+    }
+},
+{
+    "pk": 24, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-F2A55M-HD2 FM2 AMD A55 (Hudson D2) HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "59.99"
+    }
+},
+{
+    "pk": 25, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS M5A99X EVO R2.0 AM3+ AMD 990X + SB950 SATA 6Gb/s USB 3.0 ATX AMD Motherboard with UEFI BIOS ", 
+        "moboPrice": "139.99"
+    }
+},
+{
+    "pk": 26, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-970A-D3P AM3+/AM3 AMD 970 SATA 6Gb/s USB 3.0 ATX AMD Motherboard ", 
+        "moboPrice": "94.99"
+    }
+},
+{
+    "pk": 27, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-78LMT-S2 AM3+ AMD 760G + SB710 Micro ATX AMD Motherboard ", 
+        "moboPrice": "47.99"
+    }
+},
+{
+    "pk": 28, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock A785GM-LE AM3/AM2+/AM2 AMD 785G + SB710 Micro ATX AMD Motherboard ", 
+        "moboPrice": "58.99"
+    }
+},
+{
+    "pk": 29, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " MSI A88XM-E35 FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "67.99"
+    }
+},
+{
+    "pk": 30, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock FM2A88M-HD+ FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "69.29"
+    }
+},
+{
+    "pk": 31, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-F2A88XM-HD3 FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "72.79"
+    }
+},
+{
+    "pk": 32, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " Open Box: ASUS M5A78L-M/USB3 AM3+ AMD 760G + SB710 USB 3.0 HDMI uATX AMD Motherboard ", 
+        "moboPrice": "76.49"
+    }
+},
+{
+    "pk": 33, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-F2A88XM-D3H FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "84.99"
+    }
+},
+{
+    "pk": 34, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock FM2A88M Extreme4+ FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "84.99"
+    }
+},
+{
+    "pk": 35, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock AM1H-ITX AM1 HDMI SATA 6Gb/s USB 3.0 DC-In/ATX Power Input Mini ITX AMD Motherboard ", 
+        "moboPrice": "58.99"
+    }
+},
+{
+    "pk": 36, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-F2A88X-UP4 FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI ATX AMD Motherboard ", 
+        "moboPrice": "109.99"
+    }
+},
+{
+    "pk": 37, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " BIOSTAR A780L3C AM3 Micro ATX AMD Motherboard ", 
+        "moboPrice": "37.89"
+    }
+},
+{
+    "pk": 38, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock 880GM-LE FX AM3+ AMD 880G + SB710 Micro ATX AMD Motherboard ", 
+        "moboPrice": "58.99"
+    }
+},
+{
+    "pk": 39, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS AM1M-A AM1 SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "49.99"
+    }
+},
+{
+    "pk": 40, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS A55M-E FM2 AMD A55 (Hudson D2) Micro ATX AMD Motherboard With UEFI BIOS ", 
+        "moboPrice": "54.99"
+    }
+},
+{
+    "pk": 41, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " BIOSTAR TA970 AM3+ AMD 970 + SB950 SATA 6Gb/s USB 3.0 ATX AMD Motherboard with UEFI BIOS ", 
+        "moboPrice": "79.99"
+    }
+},
+{
+    "pk": 42, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " MSI A55M-E35 FM2+ / FM2 AMD A55 (Hudson D2) HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "52.79"
+    }
+},
+{
+    "pk": 43, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-A75-UD4H FM1 AMD A75 (Hudson D3) SATA 6Gb/s USB 3.0 HDMI ATX AMD Motherboard ", 
+        "moboPrice": "109.69"
+    }
+},
+{
+    "pk": 44, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS F2A85-M PRO FM2 AMD A85X (Hudson D4) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "94.99"
+    }
+},
+{
+    "pk": 45, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock 990FX Extreme3 AM3+ AMD 990FX + SB950 SATA 6Gb/s USB 3.0 ATX AMD Motherboard with UEFI BIOS ", 
+        "moboPrice": "119.99"
+    }
+},
+{
+    "pk": 46, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-990FXA-UD3 AM3+ AMD 990FX + SB950 SATA 6Gb/s USB 3.0 ATX AMD Motherboard ", 
+        "moboPrice": "148"
+    }
+},
+{
+    "pk": 47, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ECS A55F2-M3(1.0) FM2 AMD A55 (Hudson D2) HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "48.99"
+    }
+},
+{
+    "pk": 48, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " MSI A88XI AC FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI Mini ITX AMD Motherboard ", 
+        "moboPrice": "99.99"
+    }
+},
+{
+    "pk": 49, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-F2A88XN-WIFI FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI Mini ITX AMD Motherboard ", 
+        "moboPrice": "109.69"
+    }
+},
+{
+    "pk": 50, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " Open Box: ASUS Crosshair V Formula-Z AM3+ AMD 990FX + SB950 SATA 6Gb/s USB 3.0 ATX AMD Gaming Motherboard with 3-Way SLI/CrossFireX Support and UEFI BIOS ", 
+        "moboPrice": "239.99"
+    }
+},
+{
+    "pk": 51, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS A55BM-K FM2+ AMD A55 (Hudson D2) Micro ATX AMD Motherboard ", 
+        "moboPrice": "54.49"
+    }
+},
+{
+    "pk": 52, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-AM1M-S2H AM1 SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "34.99"
+    }
+},
+{
+    "pk": 53, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock 990FX Extreme9 AM3+ AMD 990FX + SB950 SATA 6Gb/s USB 3.0 ATX AMD Motherboard with UEFI BIOS ", 
+        "moboPrice": "189.99"
+    }
+},
+{
+    "pk": 54, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-F2A78M-HD2 FM2+ AMD A78 (Bolton D3) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "62.99"
+    }
+},
+{
+    "pk": 55, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " MSI 760GM-P23 (FX) AM3+ AMD 760G + SB710 Micro ATX AMD Motherboard ", 
+        "moboPrice": "50.02"
+    }
+},
+{
+    "pk": 56, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock FM2A78M-ITX+ FM2+ / FM2 AMD A78 (Bolton D3) SATA 6Gb/s USB 3.0 HDMI Mini ITX AMD Motherboard ", 
+        "moboPrice": "94.99"
+    }
+},
+{
+    "pk": 57, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " MSI 970A-G46 AM3+ AMD 970 + SB950 SATA 6Gb/s USB 3.0 ATX AMD Motherboard with UEFI BIOS ", 
+        "moboPrice": "79.99"
+    }
+},
+{
+    "pk": 58, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS M5A78L-M/USB3 AM3+ AMD 760G + SB710 USB 3.0 HDMI uATX AMD Motherboard ", 
+        "moboPrice": "64.79"
+    }
+},
+{
+    "pk": 59, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock Fatal1ty 990FX Killer AM3+ AMD 990FX SATA 6Gb/s USB 3.0 ATX AMD Gaming Motherboard ", 
+        "moboPrice": "144.99"
+    }
+},
+{
+    "pk": 60, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock 980DE3/U3S3 AM3+ AMD RX881/760G SATA 6Gb/s USB 3.0 ATX AMD Motherboard ", 
+        "moboPrice": "69.99"
+    }
+},
+{
+    "pk": 61, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS SABERTOOTH 990FX R2.0 AM3+ AMD 990FX + SB950 SATA 6Gb/s USB 3.0 ATX AMD Motherboard with UEFI BIOS ", 
+        "moboPrice": "184.49"
+    }
+},
+{
+    "pk": 62, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-G1.Sniper A88X FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI ATX AMD Motherboard ", 
+        "moboPrice": "114.99"
+    }
+},
+{
+    "pk": 63, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " MSI A55M-P33 FM1 AMD A55 (Hudson D2) Micro ATX AMD Motherboard with UEFI BIOS ", 
+        "moboPrice": "47.99"
+    }
+},
+{
+    "pk": 64, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock 960GM/U3S3 FX AM3+ AMD 760G + SB710 SATA 6Gb/s USB 3.0 Micro ATX AMD Motherboard ", 
+        "moboPrice": "59.99"
+    }
+},
+{
+    "pk": 65, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS A55BM-E FM2+ / FM2 AMD A55 (Hudson D2) Micro ATX AMD Motherboard ", 
+        "moboPrice": "59.99"
+    }
+},
+{
+    "pk": 66, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-78LMT-S2P(rev 5.0) AM3+ AMD 760G + SB710 Micro ATX AMD Motherboard ", 
+        "moboPrice": "57.79"
+    }
+},
+{
+    "pk": 67, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock FM2A55M-VG3+ FM2+ 95W / FM2 100W AMD A55 (Hudson D2) Micro ATX AMD Motherboard with UEFI BIOS ", 
+        "moboPrice": "42.99"
+    }
+},
+{
+    "pk": 68, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " MSI 990FXA-GD65V2 Desktop Motherboard - AMD 990FX Chipset - Socket AM3+ ", 
+        "moboPrice": "132.99"
+    }
+},
+{
+    "pk": 69, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock FM2A78M-HD+ FM2+ / FM2 AMD A78 (Bolton D3) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "59.99"
+    }
+},
+{
+    "pk": 70, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " Open Box: ASUS A55BM-PLUS/CSM FM2+ / FM2 AMD A55 (Hudson D2) USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "59.49"
+    }
+},
+{
+    "pk": 71, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS M5A97 LE R2.0 AM3+ AMD 970 + SB950 SATA 6Gb/s USB 3.0 ATX AMD Motherboard with UEFI BIOS ", 
+        "moboPrice": "89.99"
+    }
+},
+{
+    "pk": 72, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS A88XM-A FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard with UEFI BIOS ", 
+        "moboPrice": "84.99"
+    }
+},
+{
+    "pk": 73, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " BIOSTAR TA75M+ FM1 AMD A75 (Hudson D3) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "74.99"
+    }
+},
+{
+    "pk": 74, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock FM2A75M Pro4+ FM2+ / FM2 AMD A75 (Hudson D3) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "74.99"
+    }
+},
+{
+    "pk": 75, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " BIOSTAR AM1ML AM1 SATA 6Gb/s USB 3.0 Micro ATX AMD Motherboard ", 
+        "moboPrice": "32.99"
+    }
+},
+{
+    "pk": 76, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock 970 EXTREME4 AM3+ AMD 970 + SB950 SATA 6Gb/s USB 3.0 ATX AMD Motherboard with UEFI BIOS ", 
+        "moboPrice": "99.49"
+    }
+},
+{
+    "pk": 77, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock FM2A88X Extreme6+ FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI ATX AMD Motherboard ", 
+        "moboPrice": "114.79"
+    }
+},
+{
+    "pk": 78, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock Fatal1ty FM2A88X+ Killer FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI ATX AMD Gaming Motherboard ", 
+        "moboPrice": "109.99"
+    }
+},
+{
+    "pk": 79, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " Open Box: ASUS F2A55-M/CSM FM2 AMD A55 (Hudson D2) USB 3.0 HDMI Micro ATX AMD Motherboard with UEFI BIOS ", 
+        "moboPrice": "84.99"
+    }
+},
+{
+    "pk": 80, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock FM2A88X Extreme4+ FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI ATX AMD Motherboard ", 
+        "moboPrice": "84.99"
+    }
+},
+{
+    "pk": 81, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS Crosshair V Formula-Z AM3+ AMD 990FX + SB950 SATA 6Gb/s USB 3.0 ATX AMD Gaming Motherboard with 3-Way SLI/CrossFireX Support and UEFI BIOS ", 
+        "moboPrice": "239.99"
+    }
+},
+{
+    "pk": 82, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock A55M-VS FM1 AMD A55 (Hudson D2) Micro ATX AMD Motherboard ", 
+        "moboPrice": "46.99"
+    }
+},
+{
+    "pk": 83, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS A78M-A FM2+ AMD A78 (Bolton D3) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "69.79"
+    }
+},
+{
+    "pk": 84, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS M5A99FX PRO R2.0 AM3+ AMD 990FX + SB950 SATA 6Gb/s USB 3.0 ATX AMD Motherboard with UEFI BIOS ", 
+        "moboPrice": "149.99"
+    }
+},
+{
+    "pk": 85, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-78LMT-USB3 AM3+ AMD 760G + SB710 USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "68.29"
+    }
+},
+{
+    "pk": 86, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " BIOSTAR A88M FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 Micro ATX AMD Motherboard ", 
+        "moboPrice": "64.99"
+    }
+},
+{
+    "pk": 87, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-970A-UD3P AM3+ AMD 970 SATA 6Gb/s USB 3.0 ATX AMD Motherboard ", 
+        "moboPrice": "109.99"
+    }
+},
+{
+    "pk": 88, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-F2A55M-DS2 FM2 AMD A55 (Hudson D2) Micro ATX AMD Motherboard with UEFI BIOS ", 
+        "moboPrice": "57.99"
+    }
+},
+{
+    "pk": 89, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " MSI A88X-G43 FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI ATX AMD Motherboard ", 
+        "moboPrice": "82.99"
+    }
+},
+{
+    "pk": 90, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " MSI A78M-E45 FM2+ / FM2 AMD A78 (Bolton D3) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "67.99"
+    }
+},
+{
+    "pk": 91, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-990FXA-UD7 AM3+ AMD 990FX + SB950 SATA 6Gb/s USB 3.0 Extended ATX AMD Motherboard ", 
+        "moboPrice": "249.99"
+    }
+},
+{
+    "pk": 92, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock 970 PRO3 R2.0 AM3+ AMD 970 SATA 6Gb/s USB 3.0 ATX AMD Motherboard with UEFI BIOS ", 
+        "moboPrice": "74.99"
+    }
+},
+{
+    "pk": 93, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-970A-DS3P AM3+ AMD 970 SATA 6Gb/s USB 3.0 ATX AMD Motherboard ", 
+        "moboPrice": "79.99"
+    }
+},
+{
+    "pk": 94, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ECS A960M-MV(1.0A) AM3+ AMD 760G HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "44.49"
+    }
+},
+{
+    "pk": 95, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock 960GC-GS FX AM3+/AM3/AM2+ AMD 760G Micro ATX AMD Motherboard ", 
+        "moboPrice": "49.99"
+    }
+},
+{
+    "pk": 96, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " MSI A88XM-E45 FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "72.99"
+    }
+},
+{
+    "pk": 97, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock FM2A88X-ITX+ FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI Mini ITX AMD Motherboard ", 
+        "moboPrice": "98.99"
+    }
+},
+{
+    "pk": 98, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " MSI A55M-E33 FM2+ / FM2 AMD A55 (Hudson D2) HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "49.99"
+    }
+},
+{
+    "pk": 99, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " MSI 970A-G43 AM3+ AMD 970 + SB950 SATA 6Gb/s USB 3.0 ATX AMD Motherboard ", 
+        "moboPrice": "69.99"
+    }
+},
+{
+    "pk": 100, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " BIOSTAR Hi-Fi A85S3 FM2 AMD A85X (Hudson D4) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "69.99"
+    }
+},
+{
+    "pk": 101, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-990FXA-UD5 AM3+ AMD 990FX SATA 6Gb/s USB 3.0 ATX AMD Motherboard ", 
+        "moboPrice": "174.79"
+    }
+},
+{
+    "pk": 102, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-F2A78M-D3H FM2+ / FM2 AMD A78 (Bolton D3) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "74.09"
+    }
+},
+{
+    "pk": 103, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " Open Box: ASUS F2A85-V FM2 AMD A85X (Hudson D4) SATA 6Gb/s USB 3.0 HDMI ATX AMD Motherboard with UEFI BIOS ", 
+        "moboPrice": "119.99"
+    }
+},
+{
+    "pk": 104, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS A88X-PLUS FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI ATX AMD Motherboard ", 
+        "moboPrice": "104.49"
+    }
+},
+{
+    "pk": 105, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " Open Box: ASRock Fatal1ty 990FX Killer AM3+ AMD 990FX SATA 6Gb/s USB 3.0 ATX AMD Gaming Motherboard ", 
+        "moboPrice": "114.74"
+    }
+},
+{
+    "pk": 106, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " BIOSTAR AM1MHP AM1 SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "34.99"
+    }
+},
+{
+    "pk": 107, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-F2A88X-D3H FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 HDMI ATX AMD Motherboard ", 
+        "moboPrice": "87.49"
+    }
+},
+{
+    "pk": 108, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " MSI A78M-E35 FM2+ / FM2 AMD A78 (Bolton D3) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "62.99"
+    }
+},
+{
+    "pk": 109, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASRock FM2A55M-HD+ FM2+ / FM2 AMD A55 (Hudson D2) HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "49.99"
+    }
+},
+{
+    "pk": 110, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " GIGABYTE GA-F2A88XM-DS2 FM2+ / FM2 AMD A88X (Bolton D4) SATA 6Gb/s USB 3.0 Micro ATX AMD Motherboard ", 
+        "moboPrice": "79.99"
+    }
+},
+{
+    "pk": 111, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " Open Box: ASUS A78M-A FM2+ AMD A78 (Bolton D3) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "59.32"
+    }
+},
+{
+    "pk": 112, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " Open Box: ASUS F2A85-M PRO FM2 AMD A85X (Hudson D4) SATA 6Gb/s USB 3.0 HDMI Micro ATX AMD Motherboard ", 
+        "moboPrice": "129.99"
+    }
+},
+{
+    "pk": 113, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS AM1I-A AM1 SATA 6Gb/s USB 3.0 HDMI Mini ITX AMD Motherboard ", 
+        "moboPrice": "54.99"
+    }
+},
+{
+    "pk": 114, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " ASUS M5A97 R2.0 AM3+ AMD 970 + SB950 SATA 6Gb/s USB 3.0 ATX AMD Motherboard with UEFI BIOS ", 
+        "moboPrice": "99.79"
+    }
+},
+{
+    "pk": 115, 
+    "model": "parts.mobolisting", 
+    "fields": {
+        "moboList": " MSI 760GM-P34 (FX) AM3+ AMD 760G + SB710 Micro ATX AMD Motherboard ", 
+        "moboPrice": "52.99"
+    }
+},
+{
+    "pk": 1, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "64.99", 
+        "cpuList": " AMD A6-6400K Richland 3.9GHz Socket FM2 65W Desktop Processor - Black Edition AMD Radeon HD AD640KOKHLBOX "
+    }
+},
+{
+    "pk": 2, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "58.99", 
+        "cpuList": " AMD Athlon X2 370K Richland 4.0GHz Socket FM2 65W Desktop Processor AD370KOKHLBOX "
+    }
+},
+{
+    "pk": 3, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "59.99", 
+        "cpuList": " AMD A4-6320 Richland 3.8GHz Socket FM2 65W Desktop Processor AMD Radeon HD8000 Series AD6320OKHLBOX "
+    }
+},
+{
+    "pk": 4, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "44.99", 
+        "cpuList": " AMD A4-4000 Richland 3.2GHz Socket FM2 65W Desktop Processor AD4000OKHLBOX "
+    }
+},
+{
+    "pk": 5, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "579.99", 
+        "cpuList": " Intel Core i7-4930K Ivy Bridge-E 3.4GHz LGA 2011 130W Desktop Processor BX80633i74930K "
+    }
+},
+{
+    "pk": 6, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "99.99", 
+        "cpuList": " AMD A8-5600K Trinity 3.6GHz (3.9GHz Turbo) Socket FM2 100W Desktop APU (CPU + GPU) with DirectX 11 Graphic AMD Radeon HD 7560D AD560KWOHJBOX "
+    }
+},
+{
+    "pk": 7, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "74.99", 
+        "cpuList": " AMD Athlon X4 740 Trinity 3.2GHz Socket FM2 65W Desktop Processor AD740XOKHJBOX "
+    }
+},
+{
+    "pk": 8, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "159.99", 
+        "cpuList": " Intel Core i3-4340 Haswell 3.6GHz LGA 1150 54W Desktop Processor Intel HD Graphics 4600 BX80646I34340 "
+    }
+},
+{
+    "pk": 9, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "49.99", 
+        "cpuList": " AMD A4-4020 Richland 3.2GHz Socket FM2 65W Desktop Processor AMD Radeon HD7000 Series AD4020OKHLBOX "
+    }
+},
+{
+    "pk": 10, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "139.99", 
+        "cpuList": " AMD FX-6350 Vishera 3.9GHz Socket AM3+ 125W Desktop Processor FD6350FRHKBOX "
+    }
+},
+{
+    "pk": 11, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "589.99", 
+        "cpuList": " Intel Core i7-3930K Sandy Bridge-E 3.2GHz (3.8GHz Turbo) LGA 2011 130W Desktop Processor BX80619i73930K "
+    }
+},
+{
+    "pk": 12, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "69.99", 
+        "cpuList": " Intel Pentium G2030 Ivy Bridge 3.0GHz LGA 1155 55W Desktop Processor Intel HD Graphics BX80637G2030 "
+    }
+},
+{
+    "pk": 13, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "249.99", 
+        "cpuList": " AMD FX-9370 Vishera 4.4GHz Socket AM3+ 220W Desktop Processor - Black Edition FD9370FHHKWOF "
+    }
+},
+{
+    "pk": 14, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "324.99", 
+        "cpuList": " Intel Core i7-4820K Ivy Bridge-E 3.7GHz (Turbo 3.9GHz) LGA 2011 130W Desktop Processor BX80633i74820K "
+    }
+},
+{
+    "pk": 15, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "124.99", 
+        "cpuList": " Intel Core i3-2120 Sandy Bridge 3.3GHz LGA 1155 65W Desktop Processor Intel HD Graphics 2000 BX80623I32120 "
+    }
+},
+{
+    "pk": 16, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "204.99", 
+        "cpuList": " Intel Core i5 3470S Ivy Bridge 2.9GHz LGA 1155 65W Desktop Processor Intel HD Graphics 2500 BX80637I53470S "
+    }
+},
+{
+    "pk": 17, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "54.99", 
+        "cpuList": " AMD A4-5300 Trinity 3.4GHz (3.6GHz Turbo) Socket FM2 65W Desktop APU (CPU + GPU) with DirectX 11 Graphic AMD Radeon HD 7480D AD5300OKHJBOX "
+    }
+},
+{
+    "pk": 18, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "74.99", 
+        "cpuList": " Intel Pentium G3420 Haswell 3.2GHz LGA 1150 54W Desktop Processor Intel HD Graphics BX80646G3420 "
+    }
+},
+{
+    "pk": 19, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "119.99", 
+        "cpuList": " AMD FX-6300 Vishera 3.5GHz (4.1GHz Turbo) Socket AM3+ 95W Desktop Processor FD6300WMHKBOX "
+    }
+},
+{
+    "pk": 20, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "139.99", 
+        "cpuList": " Intel Core i3-3225 Ivy Bridge 3.3GHz LGA 1155 55W Desktop Processor                                                                                   Intel HD Graphics 4000 BX80637I33225 "
+    }
+},
+{
+    "pk": 21, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "119.99", 
+        "cpuList": " AMD A10-5800K Trinity 3.8GHz (4.2GHz Turbo) Socket FM2 100W Desktop APU (CPU + GPU) with DirectX 11 Graphic AMD Radeon HD 7660D AD580KWOHJBOX "
+    }
+},
+{
+    "pk": 22, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "139.99", 
+        "cpuList": " AMD FX-4350 Vishera 4.2GHz Socket AM3+ 125W Desktop Processor FD4350FRHKBOX "
+    }
+},
+{
+    "pk": 23, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "64.99", 
+        "cpuList": " AMD A6-5400K Trinity 3.6GHz (3.8GHz Turbo) Socket FM2 65W Desktop APU (CPU + GPU) with DirectX 11 Graphic AMD Radeon HD 7540D AD540KOKHJBOX "
+    }
+},
+{
+    "pk": 24, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "159.99", 
+        "cpuList": " AMD FX-8320 Vishera 3.5GHz (4.0GHz Turbo) Socket AM3+ 125W Desktop Processor FD8320FRHKBOX "
+    }
+},
+{
+    "pk": 25, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "44.99", 
+        "cpuList": " AMD A4-3300 Llano 2.5GHz Socket FM1 65W Desktop APU (CPU + GPU) with DirectX 11 Graphic AMD Radeon HD 6410D AD3300OJHXBOX "
+    }
+},
+{
+    "pk": 26, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "199.99", 
+        "cpuList": " Intel Core i5-4440S Haswell 2.8GHz (3.3GHz Turbo) LGA 1150 65W Desktop Processor Intel HD Graphics 4600 BX80646I54440S "
+    }
+},
+{
+    "pk": 27, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "209.99", 
+        "cpuList": " Intel Core i5-3570 Ivy Bridge 3.4GHz (3.8GHz Turbo Boost) LGA 1155 77W Desktop Processor Intel HD Graphics 2500 BX80637i53570 "
+    }
+},
+{
+    "pk": 28, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "249.99", 
+        "cpuList": " Intel Core i5-4670K Haswell 3.4GHz LGA 1150 84W Desktop Processor Intel HD Graphics BX80646I54670K "
+    }
+},
+{
+    "pk": 29, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "44.99", 
+        "cpuList": " AMD Athlon X2 340 Trinity 3.2GHz Socket FM2 65W Desktop Processor AD340XOKHJBOX "
+    }
+},
+{
+    "pk": 30, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "189.99", 
+        "cpuList": " Intel Core i5-3470 Ivy Bridge 3.2GHz (3.6GHz Turbo Boost) LGA 1155 77W Desktop Processor Intel HD Graphics 2500 BX80637i53470 "
+    }
+},
+{
+    "pk": 31, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "309.99", 
+        "cpuList": " Intel Core i7-4770 Haswell 3.4GHz LGA 1150 84W Desktop Processor Intel HD Graphics BX80646I74770 "
+    }
+},
+{
+    "pk": 32, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "139.99", 
+        "cpuList": " AMD A10-6800K Richland 4.1GHz (4.4GHz Turbo) Socket FM2 100W Quad-Core Desktop Processor - Black Edition AMD Radeon HD 8670D "
+    }
+},
+{
+    "pk": 33, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "139.99", 
+        "cpuList": " Intel Core i3-4330 Haswell 3.5GHz LGA 1150 54W Desktop Processor Intel HD Graphics 4600 BX80646I34330 "
+    }
+},
+{
+    "pk": 34, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "299.99", 
+        "cpuList": " Intel Core i7-3770 Ivy Bridge 3.4GHz (3.9GHz Turbo) LGA 1155 77W Desktop Processor Intel HD Graphics 4000 BX80637I73770 "
+    }
+},
+{
+    "pk": 35, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "64.99", 
+        "cpuList": " AMD Athlon 5350 Kabini 2.05GHz Socket AM1 25W Desktop Processor AMD Radeon HD 8400 AD5350JAHMBOX "
+    }
+},
+{
+    "pk": 36, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "49.99", 
+        "cpuList": " Intel Celeron G540 Sandy Bridge 2.5GHz LGA 1155 65W Desktop Processor Intel HD Graphics BX80623G540 "
+    }
+},
+{
+    "pk": 37, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "349.99", 
+        "cpuList": " Intel Core i7-4770K Haswell 3.5GHz LGA 1150 84W Desktop Processor Intel HD Graphics BX80646I74770K "
+    }
+},
+{
+    "pk": 38, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "39.99", 
+        "cpuList": " AMD Sempron 2650 Kabini 1.4GHz Socket AM1 25W Desktop Processor AMD Radeon HD 8240 SD2650JAHMBOX "
+    }
+},
+{
+    "pk": 39, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "98.99", 
+        "cpuList": " AMD A8-5500 Trinity 3.2GHz (3.7GHz Turbo) Socket FM2 65W Desktop APU (CPU + GPU) with DirectX 11 Graphic AMD Radeon HD 7560D AD5500OKHJBOX "
+    }
+},
+{
+    "pk": 40, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "145.99", 
+        "cpuList": " Intel Core i3-2105 Sandy Bridge 3.1GHz LGA 1155 65W Desktop Processor Intel HD Graphics 3000 BX80623I32105 "
+    }
+},
+{
+    "pk": 41, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "124.99", 
+        "cpuList": " Intel Core i3-4130 Haswell 3.4GHz LGA 1150 54W Desktop Processor Intel HD Graphics 4400 BX80646I34130 "
+    }
+},
+{
+    "pk": 42, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "59.99", 
+        "cpuList": " Intel Celeron G1830 Haswell 2.8GHz LGA 1150 54W Desktop Processor Intel HD Graphics BX80646G1830 "
+    }
+},
+{
+    "pk": 43, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "54.99", 
+        "cpuList": " AMD Athlon 5150 Kabini 1.6GHz Socket AM1 25W Desktop Processor AMD Radeon HD 8400 AD5150JAHMBOX "
+    }
+},
+{
+    "pk": 44, 
+    "model": "parts.cpulisting", 
+    "fields": {
+        "cpuPrice": "72.99", 
+        "cpuList": " Intel Pentium G2130 Ivy Bridge 3.2GHz LGA 1155 55W Desktop Processor BX80637G2130 "
+    }
+},
+{
+    "pk": 1, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "219.99", 
+        "caseList": " Cooler Master HAF X Blue Edition - High Air Flow Full Tower Computer Case with Windowed Side Panel and USB 3.0 "
+    }
+},
+{
+    "pk": 2, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "39.99", 
+        "caseList": " ZALMAN ZM-T2 Black Steel / Plastic MicroATX Mini Tower Computer Case "
+    }
+},
+{
+    "pk": 3, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "89.99", 
+        "caseList": " CM Storm Enforcer - Gaming Mid Tower Computer Case with USB 3.0 and Water Cooling Support "
+    }
+},
+{
+    "pk": 4, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "99.99", 
+        "caseList": " Antec P100 Black Computer Case "
+    }
+},
+{
+    "pk": 5, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "159.36", 
+        "caseList": " Details about  AeroCool Strike X GT Black ATX Tower Case - NEW "
+    }
+},
+{
+    "pk": 6, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "89.99", 
+        "caseList": " XION Gaming Series XON-980-BK Black with RED LED Light Steel / Plastic ATX Mid Tower Computer Case "
+    }
+},
+{
+    "pk": 7, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "80.75", 
+        "caseList": " Brand NEW APEX MI-008 250W Mini-ITX Case "
+    }
+},
+{
+    "pk": 8, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "59.99", 
+        "caseList": " Cooler Master Elite 350 - Mid Tower Computer Case with 500W Power Supply and Blue LED Light Strip "
+    }
+},
+{
+    "pk": 9, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "249.99", 
+        "caseList": " NZXT Phantom 820 Series CA-PH820-W1 White Steel / Plastic ATX Full Tower Computer Case "
+    }
+},
+{
+    "pk": 10, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "64.99", 
+        "caseList": " ZALMAN Z3 Plus ATX Mid-Tower PC Case, Optimum Multi-Fan system cooling, Wide band front mesh ventilation, Acrylic side panel, multiple dust filters, VF multi-guide for VGA support, USB 3.0  "
+    }
+},
+{
+    "pk": 11, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "89.99", 
+        "caseList": " APEVIA X-CRUISER3 X-CRUISER3-GN Black Steel ATX Mid Tower Computer Case w/ Side Window-Green "
+    }
+},
+{
+    "pk": 12, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "69.99", 
+        "caseList": " NZXT Guardian 921 RB 921RB-001-RD Black SECC steel chassis Computer Case "
+    }
+},
+{
+    "pk": 13, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "99.99", 
+        "caseList": " Rosewill BLACKHAWK Gaming ATX Mid Tower Computer Case, come with Five Fans, window side panel, top HDD dock  "
+    }
+},
+{
+    "pk": 14, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "49.99", 
+        "caseList": " Cooler Master Elite 311 - Mid Tower Computer Case with Windowed Side Panel and Blue Trim "
+    }
+},
+{
+    "pk": 15, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "66.61", 
+        "caseList": " Ark Technology PN03 mATX Mini-Tower PC Case with 500W PSU 2x 5.25in Bays (Black) "
+    }
+},
+{
+    "pk": 16, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "149.99", 
+        "caseList": " Corsair Carbide Series 500R Black Steel structure with molded ABS plastic accent pieces ATX Mid Tower Computer Case "
+    }
+},
+{
+    "pk": 17, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "59.99", 
+        "caseList": " Thermaltake V3 Black AMD Edition VL800P1W2N Black / Red SECC / Plastic ATX Mid Tower Computer Case "
+    }
+},
+{
+    "pk": 18, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "125.99", 
+        "caseList": " BitFenix Phenom BFC-PHE-300-WWXKK-RP No Power Supply Mini-ITX Tower Case (White) "
+    }
+},
+{
+    "pk": 19, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "179.99", 
+        "caseList": " Antec Twelve Hundred V3 Black Steel ATX Full Tower Unbeatable Gaming Case "
+    }
+},
+{
+    "pk": 20, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "69.99", 
+        "caseList": " Thermaltake Commander MS-I Epic Edition Black / Red SECC ATX Mid Tower Computer Case "
+    }
+},
+{
+    "pk": 21, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "109.99", 
+        "caseList": " RAIDMAX Agusta ATX-605BT Black/Titanium Steel / Plastic ATX Full Tower Computer Case "
+    }
+},
+{
+    "pk": 22, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "194.99", 
+        "caseList": " IN WIN H-Frame Mini Green Aluminum Mini-ITX Computer Case 180W Power Supply "
+    }
+},
+{
+    "pk": 23, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "79.99", 
+        "caseList": " Corsair Graphite Series 230T CC-9011038-WW Orange on Black with ORANGE LED fans ATX Mid Tower Computer Case "
+    }
+},
+{
+    "pk": 24, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "79.99", 
+        "caseList": " Cooler Master Force 500 - Mid Tower Computer Case with USB 3.0 and Included 500W Power Supply "
+    }
+},
+{
+    "pk": 25, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "69.99", 
+        "caseList": " ZALMAN Z3 Plus White ATX Mid-Tower PC Case, Optimum Multi-Fan system cooling, Wide band front mesh ventilation, Acrylic side panel, multiple dust filters, VF multi-guide for VGA support, USB 3.0 - Ret "
+    }
+},
+{
+    "pk": 26, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "99.99", 
+        "caseList": " Antec NSK 4482B Black 0.8mm cold rolled steel ATX Mid Tower Computer Case 380W Power Supply "
+    }
+},
+{
+    "pk": 27, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "115.91", 
+        "caseList": " Details about  HEC Blitz PC Computer Case Black/Steel ATX mATX Mid Tower - NEW "
+    }
+},
+{
+    "pk": 28, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "159.99", 
+        "caseList": " SilverStone DS380B Black Aluminum front door, SECC body NAS chassis Premium 8-bay Small Form Factor NAS Chassis SFX PSU (sold separately) Power Supply "
+    }
+},
+{
+    "pk": 29, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "39.99", 
+        "caseList": " Rosewill QN100 Dual Fans ATX Mid Tower Computer Case, come with 1x Front 120mm Fan, 1x Rear 120mm Fan  "
+    }
+},
+{
+    "pk": 30, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "189.99", 
+        "caseList": " EVGA Hadron Hydro Mini-ITX Chassis Black with 500W 80Plus Gold Power Supply (110-MW-1002-K1) "
+    }
+},
+{
+    "pk": 31, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "112.47", 
+        "caseList": " New Black ATX Mid Tower Front LED Fan Gaming PC Screwless Hot-Swap Computer Case "
+    }
+},
+{
+    "pk": 32, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "69.99", 
+        "caseList": " RAIDMAX Cobra Z ATX-502WBU Black/Blue Steel / Plastic MicroATX Mid Tower Computer Case "
+    }
+},
+{
+    "pk": 33, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "49.99", 
+        "caseList": " Rosewill R103A Black Steel ATX Mid Tower Computer Case with 350W 20+4 pin connector Power Supply "
+    }
+},
+{
+    "pk": 34, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "229.99", 
+        "caseList": " LIAN LI PC-A75WX Black ATX Full Tower Computer Case "
+    }
+},
+{
+    "pk": 35, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "82.2", 
+        "caseList": " 350W MicroATX Tower Case (Black/Silver) "
+    }
+},
+{
+    "pk": 36, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "10.16", 
+        "caseList": " USB 3.0 2.5\" HDD Hard Disk Drive External Enclosure Case Box Laptop Blue "
+    }
+},
+{
+    "pk": 37, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "119.99", 
+        "caseList": " Fractal Design Define R4 with Window Titanium Grey Silent ATX Mid Tower Case "
+    }
+},
+{
+    "pk": 38, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "49.99", 
+        "caseList": " RAIDMAX Altas ATX-295WU Blue / Black Steel / Plastic ATX Mid Tower Computer Case "
+    }
+},
+{
+    "pk": 39, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "169.99", 
+        "caseList": " Corsair Graphite Series 600T CC600TM Graphite Grey Mid-Tower Gaming Case "
+    }
+},
+{
+    "pk": 40, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "104.39", 
+        "caseList": " NEW Mid Tower Case w/ Docking Station Black "
+    }
+},
+{
+    "pk": 41, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "49.99", 
+        "caseList": " ENERMAX OSTROG ECA3253-BW Black / White SGCC / SECC ATX Mid Tower Computer Case "
+    }
+},
+{
+    "pk": 42, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "52.04", 
+        "caseList": " iMicro CA-IM1205B 400W 20+4pin Mini ATX Mini Tower Case (Black) "
+    }
+},
+{
+    "pk": 43, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "79.99", 
+        "caseList": " APEVIA X-Hermes X-HERMES-BL Black/Blue Steel ATX Mid Tower Computer Case w/ Side Window-Blue "
+    }
+},
+{
+    "pk": 44, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "49", 
+        "caseList": " BitFenix Comrade BFC-COM-100-KKXS1-RP Black ATX Computer Case "
+    }
+},
+{
+    "pk": 45, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "179.99", 
+        "caseList": " Corsair Graphite Series 760T Black Steel / Plastic ATX Full Tower Windowed Gaming Case with two 140mm red LED fans "
+    }
+},
+{
+    "pk": 46, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "219.99", 
+        "caseList": " LIAN LI PC-V700B Black Aluminum ATX Mid Tower Computer Case "
+    }
+},
+{
+    "pk": 47, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "75.24", 
+        "caseList": " Raidmax Vortex ATX-402WB No Power Supply ATX Mid Tower Gaming Case (Black) "
+    }
+},
+{
+    "pk": 48, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "69.99", 
+        "caseList": " NZXT Crafted Series Tempest 410 Black Steel / Plastic ATX Mid Tower Computer Case "
+    }
+},
+{
+    "pk": 49, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "89.99", 
+        "caseList": " APEVIA X-CRUISER3 X-CRUISER3-BL Black Steel ATX Mid Tower Computer Case w/ Side Window-Blue "
+    }
+},
+{
+    "pk": 50, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "69.99", 
+        "caseList": " NZXT Guardian 921 RB 921RB-001-BL Black SECC Steel, ABS Plastic ATX Mid Tower Computer Case "
+    }
+},
+{
+    "pk": 51, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "49.99", 
+        "caseList": " Rosewill RANGER-M Dual Fans MicroATX Mini Tower Computer Case "
+    }
+},
+{
+    "pk": 52, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "44.99", 
+        "caseList": " LOGISYS Computer CS206BK Black Steel ATX Mid Tower Computer SOHO Case 480W Power Supply "
+    }
+},
+{
+    "pk": 53, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "189.99", 
+        "caseList": " LIAN LI PC-A75 Black Aluminum ATX Full Tower Computer Case "
+    }
+},
+{
+    "pk": 54, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "59.99", 
+        "caseList": " Antec Gaming Series One Black Steel ATX Mid Tower Computer Case "
+    }
+},
+{
+    "pk": 55, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "349.99", 
+        "caseList": " Cooler Master Cosmos II - Ultra Tower Computer Case with Metal Body and Hinged Side Panels "
+    }
+},
+{
+    "pk": 56, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "59.99", 
+        "caseList": " Sentey Slim 2422 Slim Flex Case w/Power Supply\tLCD DISPLAY SECC 0.7mm 2x USB/1x Fan/Micro ATX-ITX "
+    }
+},
+{
+    "pk": 57, 
+    "model": "parts.caselisting", 
+    "fields": {
+        "casePrice": "179.99", 
+        "caseList": " NZXT Phantom 630 Windowed Edition Gunmetal Steel / Plastic ATX Full Tower Computer Case "
+    }
+},
+{
+    "pk": 1, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 1GB RAM Memory Dell Inspiron 530 PC2-6400 DDR2 ", 
+        "memPrice": "18.86"
+    }
+},
+{
+    "pk": 2, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 2GB (2X1GB) DDR Memory Acer AcerPower S285 Series ", 
+        "memPrice": "32.45"
+    }
+},
+{
+    "pk": 3, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 2GB (2X1GB) DDR Memory ASUS PC-DL Deluxe ", 
+        "memPrice": "32.45"
+    }
+},
+{
+    "pk": 4, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 4GB 4x1GB IBM Intellistation M Pro Type 6230 Memory ", 
+        "memPrice": "61.07"
+    }
+},
+{
+    "pk": 5, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " HyperX Predator Series 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 2666 Desktop Memory Model KHX26C11T2K2/8X ", 
+        "memPrice": "107.99"
+    }
+},
+{
+    "pk": 6, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Team Vulcan 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 2133 (PC3 17000) Desktop Memory Model TLD316G2133HC10QDC01 ", 
+        "memPrice": "159.99"
+    }
+},
+{
+    "pk": 7, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Team Vulcan 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 2400 (PC3 19200) Desktop Memory Model TLD316G2400HC11CDC01 ", 
+        "memPrice": "139.99"
+    }
+},
+{
+    "pk": 8, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " SUPER TALENT 512MB 184-Pin DDR SDRAM DDR 400 (PC 3200) System Memory Model D32PA512N ", 
+        "memPrice": "48.63"
+    }
+},
+{
+    "pk": 9, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR Vengeance 32GB (4 x 8GB) 240-Pin DDR3 SDRAM DDR3 1866 Desktop Memory Model CMZ32GX3M4X1866C10 ", 
+        "memPrice": "349.99"
+    }
+},
+{
+    "pk": 10, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " SUPER TALENT 512MB 184-Pin DDR SDRAM DDR 400 (PC 3200) Desktop Memory Model D32PA12H ", 
+        "memPrice": "49.63"
+    }
+},
+{
+    "pk": 11, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Patriot Signature 8GB 240-Pin DDR3 SDRAM DDR3 1333 (PC3 10600) Desktop Memory Model PSD38G13332 ", 
+        "memPrice": "74.99"
+    }
+},
+{
+    "pk": 12, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR XMS3 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 2000 (PC3 16000) Desktop Memory Model CMX8GX3M2A2000C9 ", 
+        "memPrice": "119.99"
+    }
+},
+{
+    "pk": 13, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR XMS 8GB 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model CMX8GX3M1A1600C11 ", 
+        "memPrice": "89.99"
+    }
+},
+{
+    "pk": 14, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Team Vulcan 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 2400 (PC3 19200) Desktop Memory Model TLAD316G2400HC11CDC01 ", 
+        "memPrice": "154.99"
+    }
+},
+{
+    "pk": 15, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Crucial 2GB 240-Pin DDR2 SDRAM DDR2 1066 (PC2 8500) Desktop Memory Model CT25664AA1067 ", 
+        "memPrice": "45.99"
+    }
+},
+{
+    "pk": 16, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " HyperX Black 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model KHX16C10B1BK2/16X ", 
+        "memPrice": "179.99"
+    }
+},
+{
+    "pk": 17, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 2GB MEMORY 256X64 PC3-8500 1066MHZ 1.5V NON ECC DDR3 240 PIN DIMM ", 
+        "memPrice": "30"
+    }
+},
+{
+    "pk": 18, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Kingston Kvr400D2E3/512 Ddr2-400 512Mb Ecc Cl3 Server Memory Module ", 
+        "memPrice": "39.17"
+    }
+},
+{
+    "pk": 19, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " HyperX Blu 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 1333 Desktop Memory Model KHX13C9B1K2/16 ", 
+        "memPrice": "176.99"
+    }
+},
+{
+    "pk": 20, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " SUPER TALENT 512MB 184-Pin DDR SDRAM DDR 333 (PC 2700) System Memory Model D27PA512N ", 
+        "memPrice": "49.97"
+    }
+},
+{
+    "pk": 21, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " HyperX Blu 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 1333 Desktop Memory Model KHX1333C9D3B1K2/8G ", 
+        "memPrice": "84.99"
+    }
+},
+{
+    "pk": 22, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Ddr3-1600 Sodimm 4Gb/512Mx8 Notebook Memory ", 
+        "memPrice": "71.85"
+    }
+},
+{
+    "pk": 23, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Crucial Ballistix 4GB 240-Pin DDR3 SDRAM DDR3 1866 (PC3 14900) Desktop Memory Model BLE4G3D1869DE1TX0 ", 
+        "memPrice": "64.68"
+    }
+},
+{
+    "pk": 24, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR Vengeance 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 1866 (PC3 15000) Desktop Memory Model CMZ8GX3M2A1866C9R ", 
+        "memPrice": "86.99"
+    }
+},
+{
+    "pk": 25, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL Ripjaws Z Series 64GB (8 x 8GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model F3-12800CL10Q2-64GBZL ", 
+        "memPrice": "599.99"
+    }
+},
+{
+    "pk": 26, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Visiontek 4GB 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model 900383 ", 
+        "memPrice": "54.99"
+    }
+},
+{
+    "pk": 27, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Mushkin Enhanced Redline 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 2400 (PC3 19200) Desktop Memory Model 997084 ", 
+        "memPrice": "89.99"
+    }
+},
+{
+    "pk": 28, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 8GB (4X2GB) DDR2 MEMORY RAM PC2-5300 ECC FBDIMM 240 PIN ", 
+        "memPrice": "44.99"
+    }
+},
+{
+    "pk": 29, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR Vengeance 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 1866 (PC3 15000) Desktop Memory Model CMZ8GX3M2A1866C9 ", 
+        "memPrice": "88.99"
+    }
+},
+{
+    "pk": 30, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " AllComponents 2GB 240-Pin DDR2 SDRAM DDR2 667 (PC2 5300) Desktop Memory Model AC2/667X64/2048 ", 
+        "memPrice": "28.99"
+    }
+},
+{
+    "pk": 31, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR XMS3 4GB 240-Pin DDR3 SDRAM DDR3 1600 Desktop Memory Model CMX4GX3M1A1600C9 ", 
+        "memPrice": "43.99"
+    }
+},
+{
+    "pk": 32, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL Trident X Series 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 2400 (PC3 19200) Desktop Memory Model F3-2400C9D-8GTXD ", 
+        "memPrice": "134.99"
+    }
+},
+{
+    "pk": 33, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Mushkin Enhanced Blackline 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 2400 (PC3 19200) Desktop Memory Model 997092 ", 
+        "memPrice": "79.99"
+    }
+},
+{
+    "pk": 34, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " New 8GB 4x2GB Dell OptiPlex 745 Mini Tower Memory DDR2 ", 
+        "memPrice": "124.99"
+    }
+},
+{
+    "pk": 35, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL Trident X Series 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 2666 (PC3 21300) Desktop Memory Model F3-2666C11D-16GTXD ", 
+        "memPrice": "259.99"
+    }
+},
+{
+    "pk": 36, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR Vengeance 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model CML16GX3M2A1600C10R ", 
+        "memPrice": "149.99"
+    }
+},
+{
+    "pk": 37, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Crucial 4GB Kit 2x 2GB DDR3 1333MHz PC3-10600 Non ECC Desktop Memory RAM 1333 ", 
+        "memPrice": "71.04"
+    }
+},
+{
+    "pk": 38, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL Ripjaws Z Series 16GB (4 x 4GB) 240-Pin DDR3 SDRAM DDR3 2133 (PC3 17000) Desktop Memory Model F3-2133C9Q-16GZH ", 
+        "memPrice": "179.99"
+    }
+},
+{
+    "pk": 39, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " HyperX 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 1600 Desktop Memory Model KHX16LC10K2/16X ", 
+        "memPrice": "143.99"
+    }
+},
+{
+    "pk": 40, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " SUPER TALENT 1GB 240-Pin DDR2 SDRAM DDR2 667 (PC2 5300) Desktop Memory Model T667UA1GV ", 
+        "memPrice": "52.52"
+    }
+},
+{
+    "pk": 41, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL Ripjaws Series 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 1066 (PC3 8500) Desktop Memory Model F3-8500CL7D-8GBRL ", 
+        "memPrice": "74.99"
+    }
+},
+{
+    "pk": 42, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL Value Series 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 1333 (PC3 10600) Desktop Memory Model F3-10600CL9D-16GBNT ", 
+        "memPrice": "124.99"
+    }
+},
+{
+    "pk": 43, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " ADATA XPG V2 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model AX3U1600W4G9-DMV ", 
+        "memPrice": "79.99"
+    }
+},
+{
+    "pk": 44, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR 8GB 240-Pin DDR3 SDRAM DDR3 1333 Desktop Memory Model CMV8GX3M1A1333C9 ", 
+        "memPrice": "73.99"
+    }
+},
+{
+    "pk": 45, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " PNY 2GB (2 x 1GB) 240-Pin DDR2 SDRAM DDR2 667 (PC2 5300) Dual Channel Kit Desktop Memory Model MD2048KD2-667 ", 
+        "memPrice": "45.19"
+    }
+},
+{
+    "pk": 46, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR Vengeance 64GB (8 x 8GB) 240-Pin DDR3 SDRAM DDR3 1600 Desktop Memory Model CMZ64GX3M8A1600C9 ", 
+        "memPrice": "624.99"
+    }
+},
+{
+    "pk": 47, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Mushkin Enhanced Blackline RADIOACTIVE 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 2666 (PC3 21300) Desktop Memory Model 997127Y ", 
+        "memPrice": "142.99"
+    }
+},
+{
+    "pk": 48, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL Ripjaws X Series 16GB (4 x 4GB) 240-Pin DDR3 SDRAM DDR3 1333 (PC3 10666) Desktop Memory Model F3-10666CL9Q-16GBXL ", 
+        "memPrice": "152.99"
+    }
+},
+{
+    "pk": 49, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Visiontek 8GB 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Black Label Memory Model 900667 ", 
+        "memPrice": "97.99"
+    }
+},
+{
+    "pk": 50, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Crucial Ballistix Sport VLP 16GB Kit 2x 8GB DDR3 Memory 1600 MHz 1.35V PC3-12800 ", 
+        "memPrice": "202.93"
+    }
+},
+{
+    "pk": 51, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR Dominator Platinum 32GB (4 x 8GB) 240-Pin DDR3 SDRAM DDR3 2133 Desktop Memory Model CMD32GX3M4A2133C9 ", 
+        "memPrice": "439.99"
+    }
+},
+{
+    "pk": 52, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Mushkin Enhanced Redline 16GB (4 x 4GB) 240-Pin DDR3 SDRAM DDR3 2400 (PC3 19200) Desktop Memory Model 994084 ", 
+        "memPrice": "184.99"
+    }
+},
+{
+    "pk": 53, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Ddr3-1333 Sodimm 8Gb/512X8 Cl9 Micron Chip Notebook Memory ", 
+        "memPrice": "113.78"
+    }
+},
+{
+    "pk": 54, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Mushkin Enhanced Blackline 32GB (4 x 8GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model 994110 ", 
+        "memPrice": "339.99"
+    }
+},
+{
+    "pk": 55, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Crucial Ballistix Tactical 16GB (4 x 4GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Low Profile Desktop Memory Model BLT4K4G3D1608ET3LX0 ", 
+        "memPrice": "174.99"
+    }
+},
+{
+    "pk": 56, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Crucial Ballistix 12GB (3 x 4GB) 240-Pin DDR3 SDRAM DDR3 1333 (PC3 10600) Desktop Memory Model BLT3KIT4G3D1337DT1TX0 ", 
+        "memPrice": "129.99"
+    }
+},
+{
+    "pk": 57, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Crucial 4GB 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model CT51264BA160BJ ", 
+        "memPrice": "39.99"
+    }
+},
+{
+    "pk": 58, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR Vengeance 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model CML8GX3M2A1600C9R ", 
+        "memPrice": "79.99"
+    }
+},
+{
+    "pk": 59, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR Vengeance 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model CMZ8GX3M2A1600C9B ", 
+        "memPrice": "84.99"
+    }
+},
+{
+    "pk": 60, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 2GB (2X1GB) MEMORY 128X72 168 PIN PC133 6NS 3.3V ECC REG SDRAM RAM DIMM ", 
+        "memPrice": "72.5"
+    }
+},
+{
+    "pk": 61, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 8GB (2X4GB) MEMORY 512X72 PC3-10600 1333MHZ 1.5V ECC REG DDR3 240 PIN DIMM 2RX4 ", 
+        "memPrice": "72.49"
+    }
+},
+{
+    "pk": 62, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 2GB (2X1GB) MEMORY FOR DELL PRECISION 450 450N 650 650N ", 
+        "memPrice": "36.25"
+    }
+},
+{
+    "pk": 63, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Ddr2-667 1Gb Memory, Oem ", 
+        "memPrice": "53.89"
+    }
+},
+{
+    "pk": 64, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Ddr3-1600 4Gb Ecc Server Memory (New Item!) ", 
+        "memPrice": "242.78"
+    }
+},
+{
+    "pk": 65, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " HyperX Beast Series 16GB (4 x 4GB) 240-Pin DDR3 SDRAM DDR3 1866 Desktop Memory Model KHX18C10T3K4/16 ", 
+        "memPrice": "179.99"
+    }
+},
+{
+    "pk": 66, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 2GB (2X1GB) DDR Memory ASRock P4I65G ", 
+        "memPrice": "32.45"
+    }
+},
+{
+    "pk": 67, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Mushkin Enhanced Essentials 4GB 240-Pin DDR3 SDRAM DDR3 1333 (PC3 10666) Desktop Memory Model 991769 ", 
+        "memPrice": "40.99"
+    }
+},
+{
+    "pk": 68, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Team Vulcan 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 2133 (PC3 17000) Desktop Memory Model TLYD38G2133HC10QDC01 ", 
+        "memPrice": "72.99"
+    }
+},
+{
+    "pk": 69, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " New 16GB KIT 8X2GB HP Hewlett Packard Compaq PC2-5300 DDR2 ECC FB DIMM RAM MEMORY ", 
+        "memPrice": "65.99"
+    }
+},
+{
+    "pk": 70, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " HyperX Blu 4GB 240-Pin DDR3 SDRAM DDR3 1333 Desktop Memory Model KHX1333C9D3B1/4G ", 
+        "memPrice": "49.99"
+    }
+},
+{
+    "pk": 71, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Apotop Altair Pro over clock 8GB (2 X 4GB) 240-Pin DDR3 SDRAM DDR3-1600 CL9 Dual Channel Kit Desktop Memory ", 
+        "memPrice": "74.99"
+    }
+},
+{
+    "pk": 72, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " HyperX Beast 16GB (4 x 4GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model KHX16C9T3K4/16X ", 
+        "memPrice": "188.99"
+    }
+},
+{
+    "pk": 73, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " SUPER TALENT 2GB 240-Pin DDR2 SDRAM DDR2 800 (PC2 6400) Desktop Memory Model T800UB2GV ", 
+        "memPrice": "69.68"
+    }
+},
+{
+    "pk": 74, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR Vengeance 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 1866 Desktop Memory Model CMZ16GX3M2A1866C10 ", 
+        "memPrice": "168.99"
+    }
+},
+{
+    "pk": 75, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Super Talent Ddr3-1333 2Gb/256Mx8 Ecc/Reg Cl9 Micron Chip Vlp Server Memory ", 
+        "memPrice": "60.52"
+    }
+},
+{
+    "pk": 76, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 2GB MEMORY 256X64 PC2-6400 800MHZ 1.8V NON ECC DDR2 240 PIN DIMM ", 
+        "memPrice": "40.6"
+    }
+},
+{
+    "pk": 77, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 256MB (2X128MB) MEMORY 16X64 168 PIN NON PARITY FPM 60NS 5V BUFFERED RAM DIMM ", 
+        "memPrice": "28.5"
+    }
+},
+{
+    "pk": 78, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Hyperx Khx1600C9D3Lk2/8Gx Ddr3-1600 8Gb(2X4Gb) Cl9 Memory Kit ", 
+        "memPrice": "136.85"
+    }
+},
+{
+    "pk": 79, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 1333 Desktop Memory Model CMV8GX3M2A1333C9 ", 
+        "memPrice": "71.99"
+    }
+},
+{
+    "pk": 80, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL Ripjaws X Series 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 2133 (PC3 17000) Desktop Memory Model F3-2133C9D-16GXH ", 
+        "memPrice": "189.99"
+    }
+},
+{
+    "pk": 81, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Generic Ddr2-667 512Mb Memory, Oem ", 
+        "memPrice": "36.79"
+    }
+},
+{
+    "pk": 82, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 8GB (2X4GB) MEMORY 512X64 PC2-6400 800MHZ 1.8V NON ECC DDR2 240 PIN DIMM ", 
+        "memPrice": "240"
+    }
+},
+{
+    "pk": 83, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Mushkin Enhanced Blackline 16GB (4 x 4GB) 240-Pin DDR3 SDRAM DDR3 2666 (PC3 21300) Desktop Memory Model 994127R ", 
+        "memPrice": "309.99"
+    }
+},
+{
+    "pk": 84, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Patriot Viper 3 Low Profile Black 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 2133 (PC3 17000) Desktop Memory Model PVL316G213C1K ", 
+        "memPrice": "179.99"
+    }
+},
+{
+    "pk": 85, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL 4GB (2 x 2GB) 240-Pin DDR2 SDRAM DDR2 800 (PC2 6400) Dual Channel Kit Desktop Memory Model F2-6400CL4D-4GBPK ", 
+        "memPrice": "74.99"
+    }
+},
+{
+    "pk": 86, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR Vengeance 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model CMZ8GX3M2A1600C8R ", 
+        "memPrice": "96.99"
+    }
+},
+{
+    "pk": 87, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL Sniper Gaming Series 16GB (4 x 4GB) 240-Pin DDR3 SDRAM DDR3 2133 (PC3 17000) Desktop Memory Model F3-17000CL9Q-16GBSR ", 
+        "memPrice": "169.99"
+    }
+},
+{
+    "pk": 88, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 4GB (2X2GB) MEMORY 256X64 PC2-4200 533MHZ 1.8V NON ECC DDR2 240 PIN DIMM ", 
+        "memPrice": "63.8"
+    }
+},
+{
+    "pk": 89, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " New 8GB 4x2GB 667MHz DDR2 ECC Fully Buffered FB-DIMM Memory for MA356LL/A Mac Pro ", 
+        "memPrice": "43.99"
+    }
+},
+{
+    "pk": 90, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " GeIL EVO CORSA Series 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model GOC316GB1600C9DC ", 
+        "memPrice": "142.99"
+    }
+},
+{
+    "pk": 91, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Ddr3-1600 2Gb/256Mx8 Ecc/Reg Cl11 Samsung Chip Server Memory ", 
+        "memPrice": "64.56"
+    }
+},
+{
+    "pk": 92, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR XMS 64GB (8 x 8GB) 240-Pin DDR3 SDRAM DDR3 1333 Desktop Memory Model CMX64GX3M8A1333C9 ", 
+        "memPrice": "574.99"
+    }
+},
+{
+    "pk": 93, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Team Vulcan 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 2400 (PC3 19200) Desktop Memory Model TLYD38G2400HC11CDC01 ", 
+        "memPrice": "81.99"
+    }
+},
+{
+    "pk": 94, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL Ripjaws Z Series 64GB (8 x 8GB) 240-Pin DDR3 SDRAM DDR3 2133 (PC3 17000) Desktop Memory Model F3-2133C10Q2-64GZM ", 
+        "memPrice": "629.99"
+    }
+},
+{
+    "pk": 95, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Visiontek Performance 4GB DDR3 SDRAM Memory Module ", 
+        "memPrice": "53.99"
+    }
+},
+{
+    "pk": 96, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR Vengeance Pro 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 1866 Desktop Memory Model CMY8GX3M2A1866C9B (Blue) ", 
+        "memPrice": "89.99"
+    }
+},
+{
+    "pk": 97, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 8GB 4X2GB KIT DELL FBDIMM PowerEdge 2900 M600 2950 III 2900 R900 T110 RAM MEMORY ", 
+        "memPrice": "30.45"
+    }
+},
+{
+    "pk": 98, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR Vengeance 16GB (4 x 4GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model CML16GX3M4A1600C9B ", 
+        "memPrice": "179.99"
+    }
+},
+{
+    "pk": 99, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " HyperX 16GB (4 x 4GB) 240-Pin DDR3 SDRAM DDR3 1866 Desktop Memory Model KHX18C10K4/16 ", 
+        "memPrice": "189.99"
+    }
+},
+{
+    "pk": 100, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Ddr3-1333 8Gb/1Gx72 Ecc/Reg Hynix Chip Server Memory ", 
+        "memPrice": "136.65"
+    }
+},
+{
+    "pk": 101, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " AVEXIR Standard Series 16GB SDRAM (2 x 8GB) Dual Channel CL10 240-pin DDR3 1600 (PC3 12800) Desktop Memory Module Model AVD3U16001008G-2SW ", 
+        "memPrice": "159.99"
+    }
+},
+{
+    "pk": 102, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " AllComponents 2GB (2 x 1GB) 240-Pin DDR2 SDRAM DDR2 800 (PC2 6400) Dual Channel kit Desktop Memory Model AC2/800X64/2048-kit ", 
+        "memPrice": "26.99"
+    }
+},
+{
+    "pk": 103, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Ballistix Sport XT 32GB (4 x 8GB) 240-Pin DDR3 SDRAM DDR3 1866 (PC3 14900) Desktop Memory Model BLS4K8G3D18ADS3 ", 
+        "memPrice": "319.99"
+    }
+},
+{
+    "pk": 104, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL 2GB 240-Pin DDR2 SDRAM DDR2 667 (PC2 5300) Desktop Memory Model F2-5300CL4S-2GBPQ ", 
+        "memPrice": "30.99"
+    }
+},
+{
+    "pk": 105, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR Vengeance Pro 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model CMY16GX3M2A1600C9B (Blue) ", 
+        "memPrice": "159.99"
+    }
+},
+{
+    "pk": 106, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " SUPER TALENT 512MB 240-Pin DDR2 SDRAM DDR2 533 (PC2 4300) System Memory Model T533UA512B ", 
+        "memPrice": "43.56"
+    }
+},
+{
+    "pk": 107, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 8GB DDR3 1600MHz PC3-12800 240 pin DESKTOP Memory RAM Non ECC 1600 Low Density ", 
+        "memPrice": "98.59"
+    }
+},
+{
+    "pk": 108, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR DOMINATOR GT 12GB (3 x 4GB) 240-Pin DDR3 SDRAM DDR3 2000 (PC3 16000) Desktop Memory with Air Fan Model CMT12GX3M3A2000C9 ", 
+        "memPrice": "168.99"
+    }
+},
+{
+    "pk": 109, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Crucial Ballistix Sport 16GB Kit 8GB x2 DDR3 1333 MHz PC3-10600 CL9 1.5V Memory ", 
+        "memPrice": "200.09"
+    }
+},
+{
+    "pk": 110, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Crucial 512MB 184-Pin DDR SDRAM DDR 333 (PC 2700) Desktop Memory Model CT6464Z335 - OEM ", 
+        "memPrice": "18.99"
+    }
+},
+{
+    "pk": 111, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL 2GB 240-Pin DDR2 SDRAM DDR2 800 (PC2 6400) Desktop Memory Model F2-6400CL5S-2GBPQ ", 
+        "memPrice": "39.99"
+    }
+},
+{
+    "pk": 112, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR Dominator Platinum 16GB (4 x 4GB) 240-Pin DDR3 SDRAM DDR3 2666 Desktop Memory Model CMD16GX3M4A2666C12 ", 
+        "memPrice": "304.99"
+    }
+},
+{
+    "pk": 113, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL Sniper Series 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 1866 (PC3 14900) Desktop Memory Model F3-1866C9D-16GSR ", 
+        "memPrice": "149.99"
+    }
+},
+{
+    "pk": 114, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Ddr3-1600 8Gb 1Gx72 Ecc/Reg Cl11 Server Memory ", 
+        "memPrice": "132.14"
+    }
+},
+{
+    "pk": 115, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Crucial 2GB (2 x 1GB) 184-Pin DDR SDRAM DDR 400 (PC 3200) Dual Channel Kit Desktop Memory Model CT2KIT12864Z40B - OEM ", 
+        "memPrice": "54.99"
+    }
+},
+{
+    "pk": 116, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 8GB (2X4GB) FOR ASUS DSBV-D (G1) DSBV-DX/C DSBV-DX/SAS DSEB-D16/SAS DSEB-DG/SAS ", 
+        "memPrice": "72.49"
+    }
+},
+{
+    "pk": 117, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR Vengeance 16GB (4 x 4GB) 240-Pin DDR3 SDRAM DDR3 1866 Desktop Memory Model CMZ16GX3M4X1866C9R ", 
+        "memPrice": "184.99"
+    }
+},
+{
+    "pk": 118, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL Trident X Series 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 2800 (PC3 22400) Desktop Memory Model F3-2800C11D-8GTXDG ", 
+        "memPrice": "329.99"
+    }
+},
+{
+    "pk": 119, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Mushkin Enhanced STEALTH 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model 996995S ", 
+        "memPrice": "92.99"
+    }
+},
+{
+    "pk": 120, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Mushkin Enhanced Blackline 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 2400 (PC3 19200) Desktop Memory Model 997093 ", 
+        "memPrice": "96.99"
+    }
+},
+{
+    "pk": 121, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Super Talent Ddr3-1333 2Gb/256X4 Ecc/Reg Hynix Chip Server Memory ", 
+        "memPrice": "57.47"
+    }
+},
+{
+    "pk": 122, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR Dominator Platinum 32GB (4 x 8GB) 240-Pin DDR3 SDRAM DDR3 2400 Desktop Memory Model CMD32GX3M4A2400C10 ", 
+        "memPrice": "589.99"
+    }
+},
+{
+    "pk": 123, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Team Vulcan 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory (Yellow Heat Spreader) Model TLYD316G1600HC10ADC01 ", 
+        "memPrice": "154.99"
+    }
+},
+{
+    "pk": 124, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " New 16GB (4X4GB) DDR3 MEMORY RAM PC3-10600 ECC REG DIMM ", 
+        "memPrice": "149.99"
+    }
+},
+{
+    "pk": 125, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 4GB MEMORY 512X72 PC3-10600 1333MHZ 1.5V ECC REG DDR3 240 PIN DIMM 2RX4 ", 
+        "memPrice": "36.24"
+    }
+},
+{
+    "pk": 126, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL Trident X Series 32GB (4 x 8GB) 240-Pin DDR3 SDRAM DDR3 2666 (PC3 21300) Desktop Memory Model F3-2666C11Q-32GTXD ", 
+        "memPrice": "549.99"
+    }
+},
+{
+    "pk": 127, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR Vengeance 16GB (4 x 4GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model CMZ16GX3M4X1600C9G ", 
+        "memPrice": "169.99"
+    }
+},
+{
+    "pk": 128, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Super Talent Ddr3-1066 Sodimm 2Gb/256X8 Notebook Memory ", 
+        "memPrice": "56.68"
+    }
+},
+{
+    "pk": 129, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Mushkin Enhanced Redline 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 1866 (PC3 14900) Desktop Memory Model 997051 ", 
+        "memPrice": "89.99"
+    }
+},
+{
+    "pk": 130, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR Vengeance LP 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model CML16GX3M2A1600C9 ", 
+        "memPrice": "159.99"
+    }
+},
+{
+    "pk": 131, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 16GB (4X4GB) DDR2 MEMORY RAM PC2-5300 ECC FBDIMM DIMM ", 
+        "memPrice": "109.49"
+    }
+},
+{
+    "pk": 132, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 16GB (4X4GB) FOR DELL PRECISION 490 690 690 (750W CHASSIS) 690N R5400 T5400 ", 
+        "memPrice": "144.99"
+    }
+},
+{
+    "pk": 133, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Super Talent Ddr3-1333 1Gb/128X8 Cl9 Value Memory ", 
+        "memPrice": "47.63"
+    }
+},
+{
+    "pk": 134, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " EDGE Tech 2GB DDR2 SDRAM Memory Module ", 
+        "memPrice": "34.99"
+    }
+},
+{
+    "pk": 135, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Crucial 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model CT2KIT51264BA160BJ ", 
+        "memPrice": "84.99"
+    }
+},
+{
+    "pk": 136, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 4GB MEMORY 512X64 PC3-6400 800MHZ 1.5V NON ECC DDR3 240 PIN DIMM ", 
+        "memPrice": "52.5"
+    }
+},
+{
+    "pk": 137, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " HyperX Black Series 8GB 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model KHX16C10B1B/8 ", 
+        "memPrice": "84.99"
+    }
+},
+{
+    "pk": 138, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " ADATA XPG V1.0 8GB 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model AX3U1600W8G9-RB ", 
+        "memPrice": "72.99"
+    }
+},
+{
+    "pk": 139, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL AEGIS 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 1333 (PC3 10600) Desktop Memory Model F3-1333C9D-8GISL ", 
+        "memPrice": "69.99"
+    }
+},
+{
+    "pk": 140, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL Ares Series 4GB 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model F3-1600C9S-4GAB ", 
+        "memPrice": "40.99"
+    }
+},
+{
+    "pk": 141, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " HyperX 4GB 240-Pin DDR3 SDRAM DDR3 1333 Desktop Memory HyperX Blu Model KHX13C9B1/4R ", 
+        "memPrice": "46.99"
+    }
+},
+{
+    "pk": 142, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL Ripjaws Z Series 16GB (4 x 4GB) 240-Pin DDR3 SDRAM DDR3 1866 (PC3 14900) Desktop Memory Model F3-14900CL9Q-16GBZL ", 
+        "memPrice": "154.99"
+    }
+},
+{
+    "pk": 143, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 8GB 2x 4GB DDR3 1333MHz PC3-10600 DESKTOP Memory Non ECC 1333 Low Density RAM 8G ", 
+        "memPrice": "97.88"
+    }
+},
+{
+    "pk": 144, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL Trident X Series 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 2800 (PC3 22400) Desktop Memory Model F3-2800C12D-16GTXDG ", 
+        "memPrice": "579.99"
+    }
+},
+{
+    "pk": 145, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Mushkin Enhanced Blackline 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model 997050 ", 
+        "memPrice": "159.99"
+    }
+},
+{
+    "pk": 146, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " CORSAIR Dominator Platinum 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 2400 Desktop Memory Model CMD8GX3M2A2400C10 ", 
+        "memPrice": "159.99"
+    }
+},
+{
+    "pk": 147, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 16GB (4X4GB) MEMORY PC2-5300 667MHZ 1.8V ECC FULLYBUFFERED DDR2 QUAD RANK 240PIN ", 
+        "memPrice": "109.49"
+    }
+},
+{
+    "pk": 148, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 8GB (2X4GB) DDR2 MEMORY RAM PC2-5300 ECC FBDIMM DIMM ", 
+        "memPrice": "72.49"
+    }
+},
+{
+    "pk": 149, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Kingston Valueram Kvr16N11K2/16 Ddr3-1600 16Gb(2X 8Gb)/1Gx64 Cl11 Memory Kit ", 
+        "memPrice": "208.99"
+    }
+},
+{
+    "pk": 150, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL Ares Series 16GB (4 x 4GB) 240-Pin DDR3 SDRAM DDR3 2133 (PC3 17000) Desktop Memory Model F3-2133C11Q-16GAO ", 
+        "memPrice": "159.99"
+    }
+},
+{
+    "pk": 151, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Mushkin Enhanced Essentials 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 1333 (PC3 10666) Desktop Memory Model 996769 ", 
+        "memPrice": "72.99"
+    }
+},
+{
+    "pk": 152, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " SUPER TALENT 1GB 184-Pin DDR SDRAM DDR 333 (PC 2700) System Memory Model D27PB1GN ", 
+        "memPrice": "55.41"
+    }
+},
+{
+    "pk": 153, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " HyperX Blu Red Series 8GB 240-Pin DDR3 SDRAM DDR3 1600 Desktop Memory Model KHX16C10B1R/8 ", 
+        "memPrice": "89.99"
+    }
+},
+{
+    "pk": 154, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " Patriot Viper 3 16GB (4 x 4GB) 240-Pin DDR3 SDRAM DDR3 2133 (PC3 17000) Desktop Memory Model PV316G213C1QKRD ", 
+        "memPrice": "199.99"
+    }
+},
+{
+    "pk": 155, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " G.SKILL Ripjaws Series 16GB (4 x 4GB) 240-Pin DDR3 SDRAM DDR3 1066 (PC3 8500) Desktop Memory Model F3-8500CL7Q-16GBRL ", 
+        "memPrice": "159.99"
+    }
+},
+{
+    "pk": 156, 
+    "model": "parts.memlisting", 
+    "fields": {
+        "memList": " 512MB (2X256MB) MEMORY 32X64 168 PIN PC100 8NS 3.3V NON ECC SDRAM RAM DIMM ", 
+        "memPrice": "17"
+    }
+},
+{
+    "pk": 1, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " Mushkin Enhanced Chronos MKNSSDCR480GB-7 2.5\" 480GB SATA III 7mm Internal Solid State Drive (SSD) ", 
+        "hdPrice": "359.99"
+    }
+},
+{
+    "pk": 2, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " SAMSUNG 840 EVO MZ-7TE250LW 2.5\" TLC Internal Solid State Drive (SSD) With Notebook Bundle Kit ", 
+        "hdPrice": "274.99"
+    }
+},
+{
+    "pk": 3, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " Intel DC S3500  Series SSDSC2BB240G401 2.5\" 240GB SATA III MLC Internal Solid State Drive (SSD) - OEM ", 
+        "hdPrice": "299.99"
+    }
+},
+{
+    "pk": 4, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " Mushkin Enhanced Atlas Series MKNSSDAT30GB-DX 30GB Mini-SATA (mSATA) Synchronous MLC Internal Solid State Drive (SSD) ", 
+        "hdPrice": "64.99"
+    }
+},
+{
+    "pk": 5, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " Kingston SS200S3/30G 2.5\" 30GB SATA III Internal Solid State Drive (SSD) ", 
+        "hdPrice": "79"
+    }
+},
+{
+    "pk": 6, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " Kingston HyperX 3K SH103S3/240G 2.5\" 240GB SATA III MLC Internal Solid State Drive (SSD) (Stand-Alone Drive) ", 
+        "hdPrice": "209.99"
+    }
+},
+{
+    "pk": 7, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " Corsair Force LS Series CSSD-F60GBLS 2.5\" 60GB SATA III MLC Internal Solid State Drive (SSD) ", 
+        "hdPrice": "79.99"
+    }
+},
+{
+    "pk": 8, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " Intel 330 Series Maple Crest SSDSC2CT120A3K5 2.5\" 120GB SATA III MLC Internal Solid State Drive (SSD) ", 
+        "hdPrice": "259.99"
+    }
+},
+{
+    "pk": 9, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " Corsair Force Series GS CSSD-F128GBGS-BK 2.5\" 128GB SATA III Internal Solid State Drive (SSD) ", 
+        "hdPrice": "139.99"
+    }
+},
+{
+    "pk": 10, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " SAMSUNG 830 Series MZ-7PC256B/WW 2.5\" 256GB SATA III MLC Internal Solid State Drive (SSD) ", 
+        "hdPrice": "493"
+    }
+},
+{
+    "pk": 11, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " SAMSUNG 830 Series MZ-7PC128B/WW 2.5\" 128GB SATA III MLC Internal Solid State Drive (SSD) ", 
+        "hdPrice": "192.29"
+    }
+},
+{
+    "pk": 12, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " PNY Prevail SSD9SC240GCDA-PB 2.5\" 240GB SATA III Internal Solid State Drive (SSD) ", 
+        "hdPrice": "429.99"
+    }
+},
+{
+    "pk": 13, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " SAMSUNG 840 EVO MZ-7TE500LW 2.5\" TLC Internal Solid State Drive (SSD) With Notebook Bundle Kit ", 
+        "hdPrice": "349.99"
+    }
+},
+{
+    "pk": 14, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " Corsair Force LS Series CSSD-F240GBLS 2.5\" 240GB SATA III MLC Internal Solid State Drive (SSD) ", 
+        "hdPrice": "229.99"
+    }
+},
+{
+    "pk": 15, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " Intel SSD DC S3500 Series SSDSC2BB600G401 2.5\" 600GB SATA III MLC Internal Solid State Drive (SSD) - OEM ", 
+        "hdPrice": "699.99"
+    }
+},
+{
+    "pk": 16, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " OCZ Vertex 3.20 VTX3-25SAT3-120G.20 2.5\" 120GB SATA III MLC Internal Solid State Drive (SSD) ", 
+        "hdPrice": "184.95"
+    }
+},
+{
+    "pk": 17, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " Intel 530 Series SSDSCKGW180A401 M.2 180GB SATA 6Gb/s MLC Internal Solid State Drive (SSD) - OEM ", 
+        "hdPrice": "199.99"
+    }
+},
+{
+    "pk": 18, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " OCZ Vector Series VTR1-25SAT3-128G 2.5\" 128GB SATA III MLC ", 
+        "hdPrice": "151.59"
+    }
+},
+{
+    "pk": 19, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " Mushkin Enhanced Chronos MKNSSDCR60GB-7 2.5\" 60GB SATA III 7mm Internal Solid State Drive (SSD) ", 
+        "hdPrice": "143"
+    }
+},
+{
+    "pk": 20, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " Kingston SSDNow V300 Series SV300S37A/480G 2.5\" 480GB SATA III Internal Solid State Drive (SSD) w/Adapter  ", 
+        "hdPrice": "399.99"
+    }
+},
+{
+    "pk": 21, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " Corsair Force Series GS CSSD-F480GBGS-BK 2.5\" 480GB SATA III Internal Solid State Drive (SSD) ", 
+        "hdPrice": "449.99"
+    }
+},
+{
+    "pk": 22, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " ADATA XPG SX900 ASX900S3-64GM-C 2.5\" 64GB SATA III MLC Internal Solid State Drive (SSD) ", 
+        "hdPrice": "169.95"
+    }
+},
+{
+    "pk": 23, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " SanDisk Ultra Plus SDSSDHP-064G-G26 2.5\" 64GB SATA III MLC Internal Solid State Drive (SSD) for Desktop ", 
+        "hdPrice": "79.99"
+    }
+},
+{
+    "pk": 24, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " Mushkin Enhanced Chronos MKNSSDCR240GB-7 2.5\" 7mm Internal Solid State Drive (SSD) ", 
+        "hdPrice": "123.95"
+    }
+},
+{
+    "pk": 25, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " Kingston SSDNow V300 Series SV300S37A/60G 2.5\" 60GB SATA III Internal Solid State Drive (SSD) ", 
+        "hdPrice": "69.99"
+    }
+},
+{
+    "pk": 26, 
+    "model": "parts.hdlisting", 
+    "fields": {
+        "hdList": " Transcend SSD 720 2.5\" 512GB SATA III Internal Solid State Drive (SSD) with Desktop Upgrade Kit ", 
+        "hdPrice": "506.13"
+    }
+},
+{
+    "pk": 1, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " GIGABYTE GV-N660OC-2GD GeForce GTX 660 2GB 192-bit GDDR5 PCI Express 3.0 x16 HDCP Ready SLI Support Video Card ", 
+        "gpuPrice": "209.99"
+    }
+},
+{
+    "pk": 2, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " PNY VCGGTX750T2XPB GeForce GTX 750 Ti 2GB 128-Bit GDDR5 PCI Express 3.0 x16 Video Card ", 
+        "gpuPrice": "159.99"
+    }
+},
+{
+    "pk": 3, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " PowerColor AXR7 250 2GBD5-4DL Radeon R7 250 2GB 128-Bit GDDR5 PCI Express 3.0 CrossFireX Support Low Profile Ready Eyefinity 4 LP Edition Video Card ", 
+        "gpuPrice": "139.99"
+    }
+},
+{
+    "pk": 4, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " nVIDIA GeForce GT 610 1GB PCI Express PCI-E x16 Single Slot Video Graphics Card ", 
+        "gpuPrice": "85.49"
+    }
+},
+{
+    "pk": 5, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " Inno3D nVidia GeForce 1GB DDR3 VGA/DVI/HDMI PCI-Express x 16 Video graphics Card ", 
+        "gpuPrice": "55.09"
+    }
+},
+{
+    "pk": 6, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " XFX Double Dissipation R9-290X-EDFD Radeon R9 290X 4GB 512-Bit GDDR5 PCI Express 3.0 x16 HDCP Ready CrossFireX Support Video Card ", 
+        "gpuPrice": "629.99"
+    }
+},
+{
+    "pk": 7, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " HIS iCooler Boost H240F2G Radeon R7 240 2GB 128-Bit DDR3 PCI Express 3.0 x16 CrossFireX Support Video Card ", 
+        "gpuPrice": "79.99"
+    }
+},
+{
+    "pk": 8, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " JATON Video-PX369-QUAD Radeon HD 6570 1GB 128-Bit DDR3 PCI Express x16 Low Profile Ready Video Card ", 
+        "gpuPrice": "184.99"
+    }
+},
+{
+    "pk": 9, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " MSI GAMING N750Ti TF 2GD5/OC GeForce GTX 750 Ti 2GB 128-Bit GDDR5 HDCP Ready Video Card ", 
+        "gpuPrice": "179.99"
+    }
+},
+{
+    "pk": 10, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " Low Profile Half Height nVIDIA GeForce 1GB PCI Express x16 Video Graphics Card ", 
+        "gpuPrice": "89.99"
+    }
+},
+{
+    "pk": 11, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " GIGABYTE GV-N650OC-2GI GeForce GTX 650 2GB 128-bit GDDR5 PCI Express 3.0 x16 HDCP Ready Video Card ", 
+        "gpuPrice": "139.99"
+    }
+},
+{
+    "pk": 12, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " EVGA 512-P3-1300-LR GeForce 8400 GS 512MB 32-Bit DDR3 PCI Express 2.0 x16 HDCP Ready Low Profile Video Card ", 
+        "gpuPrice": "32.99"
+    }
+},
+{
+    "pk": 13, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " New GPU 128Bit ATI 2G 2GB Hd6570 DDR3 PCI-E Graphics Card for VGA,DVI,HDMI ", 
+        "gpuPrice": "80.11"
+    }
+},
+{
+    "pk": 14, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " ASUS GT640-2GD3 GeForce GT 640 2GB 128-bit DDR3 PCI Express 3.0 x16 HDCP Ready Video Card ", 
+        "gpuPrice": "99.99"
+    }
+},
+{
+    "pk": 15, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " VisionTek 900653 Radeon R9 290 4GB 512-Bit GDDR5 PCI Express 3.0 CrossFireX Support Video Card ", 
+        "gpuPrice": "479.99"
+    }
+},
+{
+    "pk": 16, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " INNO3D NVIDIA Geforce GT 630 4GB PCI Express x16 Video Graphics Card HMDI ", 
+        "gpuPrice": "125.8"
+    }
+},
+{
+    "pk": 17, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " JATON VIDEO-348PCI-LP GeForce 6200 512MB 64-bit DDR2 PCI Low Profile Ready Video Card ", 
+        "gpuPrice": "89.99"
+    }
+},
+{
+    "pk": 18, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " MSI R6450-MD1GD3/LP Radeon HD 6450 1GB 64-Bit DDR3 PCI Express 2.1 x16 HDCP Ready Low Profile Ready Video Card ", 
+        "gpuPrice": "39.99"
+    }
+},
+{
+    "pk": 19, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " Low Profile Half Height AMD Radeon HD 1024MB 1GB PCI-E x16 Video Graphics Card ", 
+        "gpuPrice": "82.49"
+    }
+},
+{
+    "pk": 20, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " GIGABYTE GV-R929OC-4GD Radeon R9 290 4GB 512-Bit GDDR5 PCI Express 3.0 HDCP Ready Video Card ", 
+        "gpuPrice": "449.99"
+    }
+},
+{
+    "pk": 21, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " PNY VCGGTX7501XPB GeForce GTX 750 1GB 128-Bit GDDR5 PCI Express 3.0 x16 Video Card ", 
+        "gpuPrice": "129.99"
+    }
+},
+{
+    "pk": 22, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " VisionTek 900276 Radeon HD 4650 1GB 128-bit DDR2 PCI Express 2.0 x16 HDCP Ready Low Profile Ready Video Card ", 
+        "gpuPrice": "134.99"
+    }
+},
+{
+    "pk": 23, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " XFX One ON-XFX1-DLX2 Radeon HD 5450 2GB 64-bit DDR3 PCI-Express Low Profile Ready Video Card ", 
+        "gpuPrice": "44.99"
+    }
+},
+{
+    "pk": 24, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " PowerColor AXR7 250 1GBD5-HLE Radeon R7 250 1GB 128-Bit GDDR5 PCI Express 3.0 CrossFireX Support Low Profile Ready Video Card ", 
+        "gpuPrice": "119.99"
+    }
+},
+{
+    "pk": 25, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " PNY Commercial Series VCGGT5201XPB-CG GeForce GT 520 (Fermi) 1GB 64-Bit DDR3 PCI Express 2.0 x16 HDCP Ready Low Profile Video Card ", 
+        "gpuPrice": "59.99"
+    }
+},
+{
+    "pk": 26, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " Asus GT640-DCSL-2GD3 GeForce GT 640 Graphic Card - 1 GPUs - 901 MHz Core - 2 GB GDDR3 SDRAM - PCI-Express 3.0 x16 ", 
+        "gpuPrice": "113.99"
+    }
+},
+{
+    "pk": 27, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " EVGA 02G-P4-2770-KR GeForce GTX 770 2GB 256-Bit GDDR5 PCI Express 3.0 SLI Support Video Card ", 
+        "gpuPrice": "349.99"
+    }
+},
+{
+    "pk": 28, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " ASUS GTX760-DC2OC-2GD5 GeForce GTX 760 2GB 256-Bit GDDR5 PCI Express 3.0 x16 HDCP Ready SLI Support Video Card ", 
+        "gpuPrice": "269.99"
+    }
+},
+{
+    "pk": 29, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " GIGABYTE GV-R645-1GI REV2.0 Radeon HD 6450 1GB 64-bit DDR3 PCI Express 2.1 HDCP Ready Low Profile Ready Video Card ", 
+        "gpuPrice": "39.99"
+    }
+},
+{
+    "pk": 30, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " HIS iCooler Turbo H260XFT1GD Radeon R7 260X 1GB 128-Bit GDDR5 PCI Express 3.0 x16 HDCP Ready CrossFireX Support Video Card ", 
+        "gpuPrice": "129.99"
+    }
+},
+{
+    "pk": 31, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " nVIDIA GeForce 2GB PCI-E x16 Single Slot HDMI+DVI Gaming HD Video Graphics Card ", 
+        "gpuPrice": "104.99"
+    }
+},
+{
+    "pk": 32, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " PNY VCGGTX7602XPB GeForce GTX 760 2GB 256-bit GDDR5 PCI Express 3.0 SLI Support Video Card ", 
+        "gpuPrice": "259.99"
+    }
+},
+{
+    "pk": 33, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " NVIDIA Geforce GT 630 2GB 128 bit DDR3 PCI Express Video Graphics Card HMDI DVI ", 
+        "gpuPrice": "118.49"
+    }
+},
+{
+    "pk": 34, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " NVIDIA GeForce GF FX 5500 FX5500 256 MB PCI Desktop Video Graphics Card Vga +TvO ", 
+        "gpuPrice": "40.17"
+    }
+},
+{
+    "pk": 35, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " AMD ATI Radeon 2GB DDR3 PCI Express Video Graphics Card HMDI windows 7/vista/xp ", 
+        "gpuPrice": "101.43"
+    }
+},
+{
+    "pk": 36, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " MSI N640GT-MD2GD3 GeForce GT 640 2GB 128-Bit DDR3 PCI Express 3.0 x16 HDCP Ready Video Card ", 
+        "gpuPrice": "99.99"
+    }
+},
+{
+    "pk": 37, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " 1GB 1024MB nVIDIA GeForce Single Slot PCI Express PCI-E x16 Video Graphics Card ", 
+        "gpuPrice": "74.99"
+    }
+},
+{
+    "pk": 38, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " ASUS EAH5450 SILENT/DI/1GD3(LP) Radeon HD 5450 1GB DDR3 PCI Express 2.1 x16 HDCP Ready Low Profile Ready Video Card ", 
+        "gpuPrice": "35.99"
+    }
+},
+{
+    "pk": 39, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " EVGA 01G-P3-1302-LR GeForce 8400 GS 1GB 64-Bit DDR3 PCI Express 2.0 x16 HDCP Ready Low Profile Ready Video Card ", 
+        "gpuPrice": "29.99"
+    }
+},
+{
+    "pk": 40, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " JATON 3DForce6200Twin GeForce 6200 256MB 64-bit DDR AGP 4X/8X Video Card ", 
+        "gpuPrice": "59.99"
+    }
+},
+{
+    "pk": 41, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " NVIDIA GeForce 2GB Low Profile Half Height PCI Express x16 Video Graphics Card ", 
+        "gpuPrice": "121.73"
+    }
+},
+{
+    "pk": 42, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " PowerColor TurboDuo AXR9 280X 3GBD5-T2DHE/OC Radeon R9 280X 3GB 384-Bit GDDR5 PCI Express 3.0 HDCP Ready CrossFireX Support Video Card ", 
+        "gpuPrice": "329.99"
+    }
+},
+{
+    "pk": 43, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " XFX Double Dissipation R9-290A-EDFD Radeon R9 290 4GB 512-Bit GDDR5 PCI Express 3.0 x16 HDCP Ready CrossFireX Support Video Card ", 
+        "gpuPrice": "499.99"
+    }
+},
+{
+    "pk": 44, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " VisionTek 900270 Radeon HD 4350 512MB 64-Bit DDR2 PCI Express 2.0 x16 Low Profile Ready Video Card ", 
+        "gpuPrice": "44.99"
+    }
+},
+{
+    "pk": 45, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " ASUS R9290X-DC2OC-4GD5 Radeon R9 290X 4GB 512-Bit GDDR5 PCI Express 3.0 HDCP Ready CrossFireX Support Video Card ", 
+        "gpuPrice": "629.99"
+    }
+},
+{
+    "pk": 46, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " MSI N650-2GD5/OC GeForce GTX 650 2GB 128-Bit GDDR5 PCI Express 3.0 HDCP Ready Video Card ", 
+        "gpuPrice": "119.99"
+    }
+},
+{
+    "pk": 47, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " Zotac ZT-60607-10L GeForce GT 610 Graphic Card - 810 MHz Core - 1 GB DDR3 SDRAM - PCI Express 3.0 ", 
+        "gpuPrice": "49.99"
+    }
+},
+{
+    "pk": 48, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " XFX Core Edition R7-250A-ELF4 Radeon R7 250 4GB 128-Bit DDR3 PCI Express 3.0 HDCP Ready CrossFireX Support Low Profile Ready Video Card ", 
+        "gpuPrice": "109.99"
+    }
+},
+{
+    "pk": 49, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " SAPPHIRE Ultimate 100368USR Radeon R7 250 1GB 128-Bit GDDR5 PCI Express 3.0 Video Card ", 
+        "gpuPrice": "99.99"
+    }
+},
+{
+    "pk": 50, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " ASUS GTX650-E-2GD5 GeForce GTX 650 2GB 128-bit GDDR5 PCI Express 3.0 HDCP Ready Video Card ", 
+        "gpuPrice": "139.99"
+    }
+},
+{
+    "pk": 51, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " ZOTAC ZONE Edition ZT-60603-20L GeForce GT 610 1GB 64-bit DDR3 PCI Express 2.0 x16 HDCP Ready Video Card ", 
+        "gpuPrice": "48.99"
+    }
+},
+{
+    "pk": 52, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " EVGA 01G-P3-2632-KR GeForce GT 630 1GB 128-Bit GDDR5 PCI Express 2.0 x16 HDCP Ready Video Card ", 
+        "gpuPrice": "64.99"
+    }
+},
+{
+    "pk": 53, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " XFX FX775AZNJ4 Radeon HD 7750 1GB DDR5 CI-Express 3.0 x16 Video Card ", 
+        "gpuPrice": "109.99"
+    }
+},
+{
+    "pk": 54, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " HIS iCooler Boost Clock H250F1G Radeon R7 250 1GB 128-Bit GDDR5 PCI Express 3.0 x16 HDCP Ready CrossFireX Support Video Card ", 
+        "gpuPrice": "89.99"
+    }
+},
+{
+    "pk": 55, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " EVGA 04G-P4-3776-KR GeForce GTX 770 4GB 256-Bit GDDR5 PCI Express 3.0 SLI Support FTW 4GB Dual w/ EVGA ACX Cooler Video Card ", 
+        "gpuPrice": "429.99"
+    }
+},
+{
+    "pk": 56, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " VisionTek 900506 Radeon HD 7870 GHz Edition 2GB 256-Bit GDDR5 PCI Express 3.0 x16 HDCP Ready CrossFireX Support Video Card ", 
+        "gpuPrice": "229.99"
+    }
+},
+{
+    "pk": 57, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " 2GB Half Height Small Form Factor PC Single Slot PCI-E x16 Video Graphics Card ", 
+        "gpuPrice": "97.49"
+    }
+},
+{
+    "pk": 58, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " MSI NVIDIA GeForce 210 1GB GDDR3 HDMI Low Profile PCI-E Video Card ", 
+        "gpuPrice": "60.87"
+    }
+},
+{
+    "pk": 59, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " NVIDIA Geforce 9 PCI Express Video Graphics Card HDMI ", 
+        "gpuPrice": "139.13"
+    }
+},
+{
+    "pk": 60, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " JATON Video-228PCI-Twin GeForce FX 5200 128MB 64-bit DDR PCI Video Card ", 
+        "gpuPrice": "74.99"
+    }
+},
+{
+    "pk": 61, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " MSI N750TI-2GD5/OC GeForce GTX 750 Ti 2GB 128-Bit GDDR5 PCI Express 3.0 Video Card ", 
+        "gpuPrice": "159.99"
+    }
+},
+{
+    "pk": 62, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " 512MB nVIDIA GeForce AGP 4X 8X Dual Monitor Display View Video Graphics VGA Card ", 
+        "gpuPrice": "97.49"
+    }
+},
+{
+    "pk": 63, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " GIGABYTE GV-N650OC-1GI GeForce GTX 650 1GB 128-bit GDDR5 PCI Express 3.0 x16 HDCP Ready Video Card ", 
+        "gpuPrice": "108.99"
+    }
+},
+{
+    "pk": 64, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " PNY VCGGT6302XPB GeForce GT 630 2GB 128-Bit DDR3 PCI Express 2.0 x16 HDCP Ready Video Card ", 
+        "gpuPrice": "58.99"
+    }
+},
+{
+    "pk": 65, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " JATON VIDEO-228PCI-DVI GeForce FX 5200 128MB 64-bit DDR PCI Low Profile Ready Video Card ", 
+        "gpuPrice": "79.99"
+    }
+},
+{
+    "pk": 66, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " EVGA 512-P3-1310-LR GeForce 210 512MB 32-Bit DDR3 PCI Express 2.0 x16 HDCP Ready Low Profile Video Card ", 
+        "gpuPrice": "32.99"
+    }
+},
+{
+    "pk": 67, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " EVGA SuperClocked 02G-P4-2762-KR GeForce GTX 760 2GB 256-bit GDDR5 PCI Express 3.0 SLI Support Video Card ", 
+        "gpuPrice": "259.99"
+    }
+},
+{
+    "pk": 68, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " ASUS HD6670-2GD3 Radeon HD 6670 2GB 128-Bit DDR3 PCI Express 2.1 x16 HDCP Ready Video Card ", 
+        "gpuPrice": "79.99"
+    }
+},
+{
+    "pk": 69, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " GIGABYTE GV-N770OC-4GD GeForce GTX 770 4GB 256-bit GDDR5 PCI Express 3.0 HDCP Ready WindForce 3X 450W Video Card ", 
+        "gpuPrice": "399.99"
+    }
+},
+{
+    "pk": 70, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " VisionTek 900652 Radeon R9 280X 3GB 384-Bit GDDR5 PCI Express 3.0 CrossFireX Support Video Card ", 
+        "gpuPrice": "329.99"
+    }
+},
+{
+    "pk": 71, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " AMD ATI Radeon 2GB PCI Express x 16 Video Graphics Card HMDI windows 7/vista/xp ", 
+        "gpuPrice": "101.93"
+    }
+},
+{
+    "pk": 72, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " ZOTAC Synergy Edition ZT-60413-10L GeForce GT 630 4GB 128-bit DDR3 PCI Express 2.0 x16 HDCP Ready Video Card ", 
+        "gpuPrice": "79.99"
+    }
+},
+{
+    "pk": 73, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " NVIDIA GeForce GF FX 5500 FX5500 256 MB PCI 3D Video Graphics Card Vga +Tv Out ", 
+        "gpuPrice": "40.17"
+    }
+},
+{
+    "pk": 74, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " AMD ATI PCI-Express x16 1GB 64 bit DDR3 HDMi DVI VGA Video Graphics Card  ", 
+        "gpuPrice": "57.64"
+    }
+},
+{
+    "pk": 75, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " JATON 3DFORCE6200Twin-LP GeForce 6200 256MB 64-Bit DDR2 AGP 4X/8X Low Profile Ready Video Card ", 
+        "gpuPrice": "49.99"
+    }
+},
+{
+    "pk": 76, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " VisionTek 900366 Radeon HD 5570 1GB DDR3 PCI Express 2.0 x16 Low Profile Ready Video Card ", 
+        "gpuPrice": "184.99"
+    }
+},
+{
+    "pk": 77, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " 2GB Half Height Low Profile SFF Dual Monitor Display View HD Video Graphics Card ", 
+        "gpuPrice": "104.99"
+    }
+},
+{
+    "pk": 78, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " Sapphire AMD Radeon HD5450 1GB GDDR3 VGA/DVI/HDMI 64bit PCI-E Graphic Video Card ", 
+        "gpuPrice": "56.52"
+    }
+},
+{
+    "pk": 79, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " AMD ATI Radeon 2GB PCI Express x 16 Video Graphics Card HMDI windows 7/vista/xp ", 
+        "gpuPrice": "98.53"
+    }
+},
+{
+    "pk": 80, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " SAPPHIRE 100364-4GL Radeon R9 270X 4GB GDDR5 Video Card ", 
+        "gpuPrice": "229.99"
+    }
+},
+{
+    "pk": 81, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " AMD ATI PCI-Express x16 1GB 64 bit DDR3 HDMi DVI VGA Video Graphics Card  ", 
+        "gpuPrice": "59.63"
+    }
+},
+{
+    "pk": 82, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " EVGA SuperClocked 02G-P4-2765-KR GeForce GTX 760 2GB 256-bit GDDR5 PCI Express 3.0 SLI Support w/ EVGA ACX Cooler Video Card ", 
+        "gpuPrice": "259.99"
+    }
+},
+{
+    "pk": 83, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " VisionTek 900370 Radeon HD 6570 1GB DDR3 PCI Express 2.1 x16 HDCP Ready Video Card ", 
+        "gpuPrice": "79.99"
+    }
+},
+{
+    "pk": 84, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " GIGABYTE GV-R725O5-2GI Radeon R7 250 2GB 128-Bit GDDR5 PCI Express 3.0 HDCP Ready Video Card ", 
+        "gpuPrice": "99.99"
+    }
+},
+{
+    "pk": 85, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " Sapphire Radeon R9 290 4GB GDDR5 DUAL DVI-D/HDMI/DP TRI-X OC Version PCI-Express Graphics Card ", 
+        "gpuPrice": "895.69"
+    }
+},
+{
+    "pk": 86, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " NVIDIA Geforce GT 2GB DDR3 PCI Express Video Graphics Card HMDI DVI VGA 2 gb ", 
+        "gpuPrice": "101.14"
+    }
+},
+{
+    "pk": 87, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " GIGABYTE AMD Radeon HD 5450 1GB DDR3 VGA/DVI/HDMI Low Profile V-R545-1GI REV2.0 ", 
+        "gpuPrice": "47.84"
+    }
+},
+{
+    "pk": 88, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " XFX R7-240A-CLH4 Radeon R7 240 2GB 128-Bit DDR3 PCI Express 3.0 CrossFireX Support Low Profile Video Card ", 
+        "gpuPrice": "69.99"
+    }
+},
+{
+    "pk": 89, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " nVIDIA GeForce 512MB AGP 4X 8X Single Slot Video Graphics VGA Card VGA+DVI+HDTV ", 
+        "gpuPrice": "97.49"
+    }
+},
+{
+    "pk": 90, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " HIS H290F4GD Radeon R9 290 4GB 512-Bit GDDR5 PCI Express 3.0 x16 Video Card ", 
+        "gpuPrice": "799.69"
+    }
+},
+{
+    "pk": 91, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " PNY GeForce GT 640 Graphic Card - 900 MHz Core - 2 GB DDR3 SDRAM - PCI Express 3.0 x16 - Low-profile ", 
+        "gpuPrice": "90.99"
+    }
+},
+{
+    "pk": 92, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " NVIDIA Geforce GT 2GB 64 bit PCI Express Video Graphics Card HMDI DVI VGA 2 gb ", 
+        "gpuPrice": "116.63"
+    }
+},
+{
+    "pk": 93, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " HIS H435F512HA Radeon HD 4350 512MB 64-Bit DDR3 AGP 4X/8X HDCP Ready Low Profile Ready Video Card ", 
+        "gpuPrice": "59.99"
+    }
+},
+{
+    "pk": 94, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " EVGA 02G-P4-3751-KR GeForce GTX 750 Ti 2GB 128-Bit GDDR5 PCI Express 3.0 Video Card ", 
+        "gpuPrice": "149.99"
+    }
+},
+{
+    "pk": 95, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " 512MB nVIDIA GeForce Single Slot PCI Express PCI-E x16 Video Graphics VGA Card ", 
+        "gpuPrice": "68.14"
+    }
+},
+{
+    "pk": 96, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " MSI N640-4GD3 GeForce GT 640 4GB 128-Bit GDDR3 PCI Express 3.0 x16 HDCP Ready Video Card ", 
+        "gpuPrice": "104.99"
+    }
+},
+{
+    "pk": 97, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " ASUS DirectCU II R9270X-DC2T-4GD5 Radeon R9 270X 4GB 256-Bit GDDR5 PCI Express 3.0 HDCP Ready CrossFireX Support Video Card ", 
+        "gpuPrice": "299.99"
+    }
+},
+{
+    "pk": 98, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " EVGA 02G-P3-2629-KR GeForce GT 620 2GB 64-Bit DDR3 PCI Express 2.0 x16 HDCP Ready Video Card ", 
+        "gpuPrice": "59.99"
+    }
+},
+{
+    "pk": 99, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " ATI Radeon 2GB DDR3 PCI-Express Video Graphics Card HMDI Windows 7/Vista/XP NEW ", 
+        "gpuPrice": "74.99"
+    }
+},
+{
+    "pk": 100, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " JATON Video-339PCI-HLX Radeon HD 5450 512MB 64-Bit DDR3 PCI HDCP Ready Low Profile Ready Video Card ", 
+        "gpuPrice": "84.99"
+    }
+},
+{
+    "pk": 101, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " EVGA nVidia GeForce 8400GS 1GB DDR3 VGA/DVI/HDMI PCI-E Video Card ", 
+        "gpuPrice": "60.45"
+    }
+},
+{
+    "pk": 102, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " GIGABYTE GV-N750OC-1GI GeForce GTX 750 1GB 128-Bit GDDR5 PCI Express 3.0 Video Card ", 
+        "gpuPrice": "129.99"
+    }
+},
+{
+    "pk": 103, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " PowerColor DEVIL AXR9 270X 2GBD5-A2DHE Radeon R9 270X 2GB 256-Bit GDDR5 PCI Express 3.0 HDCP Ready CrossFireX Support Video Card ", 
+        "gpuPrice": "239.99"
+    }
+},
+{
+    "pk": 104, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " MSI Radeon R9 290X GAMING 4GB 512-bit GDDR5 PCI Express 3.0 x16 HDCP Ready CrossFireX Support Video Card ", 
+        "gpuPrice": "649.99"
+    }
+},
+{
+    "pk": 105, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " PNY VCGG2101D3XPB GeForce 210 1GB 64-Bit DDR3 PCI Express 2.0 x16 HDCP Ready Low Profile Ready Video Card ", 
+        "gpuPrice": "39.99"
+    }
+},
+{
+    "pk": 106, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " SAPPHIRE 100367L Radeon R7 250X 1GB 128-Bit GDDR5 PCI Express 3.0 CrossFireX Support Video Card ", 
+        "gpuPrice": "99.99"
+    }
+},
+{
+    "pk": 107, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " VisionTek 900292 Radeon HD 3450 512MB 64-Bit DDR2 PCI Low Profile Ready Video Card ", 
+        "gpuPrice": "124.99"
+    }
+},
+{
+    "pk": 108, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " XFX Double D R9-270A-CDFC Radeon R9 270 2GB GDDR5 PCI Express 3.0 CrossFireX Support Video Card ", 
+        "gpuPrice": "199.99"
+    }
+},
+{
+    "pk": 109, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " HP GeForce GT 630 Graphic Card - 2 GB DDR3 SDRAM - PCI Express x16 ", 
+        "gpuPrice": "151.99"
+    }
+},
+{
+    "pk": 110, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " Sapphire DUAL-X AMD Radeon R9 270X OC 2GB GDDR5 2DVI/HDMI/DisplayPort PCI-Express Video Card w/ Boost ", 
+        "gpuPrice": "399.95"
+    }
+},
+{
+    "pk": 111, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " 1GB nVIDIA GeForce PCI-E x16 Dual Monitor Display View Video Graphics VGA Card ", 
+        "gpuPrice": "82.64"
+    }
+},
+{
+    "pk": 112, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " MSI R7 260 1GD5 OC 1GB 128-Bit GDDR5 PCI Express 3.0 x16 HDCP Ready CrossFireX Support Video Card ", 
+        "gpuPrice": "129.99"
+    }
+},
+{
+    "pk": 113, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " PowerColor AXR7 240 2GBK3-HV2E/OC Radeon R7 240 2GB 128-Bit DDR3 PCI Express 3.0 HDCP Ready CrossFireX Support Video Card ", 
+        "gpuPrice": "69.99"
+    }
+},
+{
+    "pk": 114, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " ASUS DirectCU II OC R9290-DC2OC-4GD5 Radeon R9 290 4GB 512-Bit GDDR5 PCI Express 3.0 HDCP Ready CrossFireX Support Video Card ", 
+        "gpuPrice": "499.99"
+    }
+},
+{
+    "pk": 115, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " HIS H295LF8G4M Radeon R9 295x2 8GB 1024 (512 x 2)-Bit GDDR5 PCI Express 3.0 x16 HDCP Ready CrossFireX Support Video Card ", 
+        "gpuPrice": "1499.99"
+    }
+},
+{
+    "pk": 116, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " ASUS R9270X-DC2T-2GD5 Radeon R9 270X 2GB 256-bit GDDR5 PCI Express 3.0 CrossFireX Support Video Card ", 
+        "gpuPrice": "259.99"
+    }
+},
+{
+    "pk": 117, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " nVIDIA 2GB Windows 8 7 Vista XP Linux PCI-E x16 VGA+HDMI+DVI Video Graphics Card ", 
+        "gpuPrice": "104.99"
+    }
+},
+{
+    "pk": 118, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " EVGA nVidia GeForce 8400GS 1GB DDR3 VGA/DVI/HDMI PCI-Express Video Card ", 
+        "gpuPrice": "60.89"
+    }
+},
+{
+    "pk": 119, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " EVGA 512-A8-N403-LR GeForce 6200 512MB 64-Bit GDDR2 AGP 8X Video Card ", 
+        "gpuPrice": "42.99"
+    }
+},
+{
+    "pk": 120, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " MSI N660 TF 2GD5/OC GeForce GTX 660 2GB 192-bit GDDR5 PCI Express 3.0 x16 HDCP Ready SLI Support Video Card ", 
+        "gpuPrice": "209.99"
+    }
+},
+{
+    "pk": 121, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " INNO3D NVIDIA Geforce 4GB PCI Express x16 Video Graphics Card HMDI Low profile ", 
+        "gpuPrice": "135.95"
+    }
+},
+{
+    "pk": 122, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " SAPPHIRE 100363L Radeon R9 280X 3GB 384-bit GDDR5 PCI Express 3.0 x16 HDCP Ready CrossFireX Support Video Card ", 
+        "gpuPrice": "359.99"
+    }
+},
+{
+    "pk": 123, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " EVGA SuperClocked w/ ACX Cooling 02G-P4-2774-KR GeForce GTX 770 2GB 256-bit GDDR5 PCI Express 3.0 SLI Support Video Card ", 
+        "gpuPrice": "369.99"
+    }
+},
+{
+    "pk": 124, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " SAPPHIRE VAPOR-X 100363VX-2SR Radeon R9 280X PCI Express 3.0 TRI-X OC w/ Boost Video Card (UEFI) ", 
+        "gpuPrice": "389.99"
+    }
+},
+{
+    "pk": 125, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " HIS iCooler H250XF1G Radeon R7 250X 1GB 128-Bit GDDR5 PCI Express 3.0 x16 HDCP Ready CrossFireX Support Video Card ", 
+        "gpuPrice": "109.99"
+    }
+},
+{
+    "pk": 126, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " VisionTek 900669 Radeon HD 7750 1GB 128-Bit DDR3 PCI Express 3.0 Video Card ", 
+        "gpuPrice": "189.99"
+    }
+},
+{
+    "pk": 127, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " EVGA 03G-P4-2884-KR GeForce GTX 780 Ti Superclocked 3GB 384-Bit GDDR5 PCI Express 3.0 SLI Support w/EVGA ACX Cooler Video Card ", 
+        "gpuPrice": "729.99"
+    }
+},
+{
+    "pk": 128, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " SAPPHIRE Radeon HD 6450 1GB 64-bit DDR3 PCI Express 2.1 x16 HDCP Ready  Video Card    ( 100322L) ", 
+        "gpuPrice": "39.99"
+    }
+},
+{
+    "pk": 129, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " GeForce HD 512MB PCI-E x16 Windows 8 7 Vista XP Linux Video Graphics VGA Card ", 
+        "gpuPrice": "68.14"
+    }
+},
+{
+    "pk": 130, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " XFX One ON-XFX1-PLS2 Radeon HD 5450 1GB 64-Bit DDR3 PCI Express 2.1 x16 HDCP Ready Low Profile Ready Video Card ", 
+        "gpuPrice": "34.99"
+    }
+},
+{
+    "pk": 131, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " NVIDIA Geforce GT 2GB DDR3 PCI Express Video Graphics Card HMDI DVI VGA 2 gb ", 
+        "gpuPrice": "104.63"
+    }
+},
+{
+    "pk": 132, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " ASUS R7240-2GD3-L Radeon R7 240 2GB 128-Bit DDR3 PCI Express 3.0 HDCP Ready Low Profile Video Card ", 
+        "gpuPrice": "69.99"
+    }
+},
+{
+    "pk": 133, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " VisionTek 900231 Radeon HD 3450 512MB 64-bit GDDR2 PCI Express 2.0 x16 HDCP Ready CrossFireX Support Video Card ", 
+        "gpuPrice": "59.99"
+    }
+},
+{
+    "pk": 134, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " ASUS GTX660-DC2O-2GD5 GeForce GTX 660 2GB 192-Bit GDDR5 PCI Express 3.0 x16 HDCP Ready SLI Support Video Card ", 
+        "gpuPrice": "219.99"
+    }
+},
+{
+    "pk": 135, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " Low Profile Half Height 1GB HD PCI Express PCI-E x1 Video Graphics Card DVI+HDMI ", 
+        "gpuPrice": "144.99"
+    }
+},
+{
+    "pk": 136, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " EVGA 03G-P4-2667-KR GeForce GTX 660 FTW Signature 2 3GB 192-bit GDDR5 PCI Express 3.0 x16 HDCP Ready SLI Support Video Card ", 
+        "gpuPrice": "249.99"
+    }
+},
+{
+    "pk": 137, 
+    "model": "parts.gpulisting", 
+    "fields": {
+        "gpuList": " PNY VCGGT630SLXPB GeForce GT 630 1GB 64-bit DDR3 PCI Express 2.0 x16 Low Profile Ready Video Card ", 
+        "gpuPrice": "69.99"
+    }
+},
+{
+    "pk": 1, 
+    "model": "userprofile.userprofile", 
+    "fields": {
+        "first_name": "", 
+        "last_name": "", 
+        "user": 1, 
+        "email": ""
+    }
+}
+]

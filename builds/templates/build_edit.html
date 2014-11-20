@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+
+{% block list %}
+  <ul class="nav nav-sidebar">
+    <li><a href="/builds/home">Home</a></li>
+
+    <li><a href="/builds/mybuilds">My Builds</a></li>
+<li><a href="/builds/public_builds">Public Builds</a></li>
+    <li><a href="/builds/new_build">Create New Builds</a></li>
+    <li class = "active"><a href="/builds/edit">Edit Build</a></li>
+  </ul>
+  {% endblock %}
+
+{% block bodycontent %}
+
+
+<form class="form-horizontal" method="post" action="/builds/build_confirmation/"> {% csrf_token %}
+        <fieldset>
+
+            <!-- Form Name -->
+            <legend>Edit Build</legend>
+             
+            <!-- Text Input -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="name_input">Build Name</label>  
+                <div class="col-md-6">
+                    <input id="name_input" name="name_input" placeholder="Name your Build" class="form-control input-md" type="text" value="{{build_name}}" required>
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="cpu_input">Processor</label>
+				<div class="col-md-6"> 
+	    			<input type="text" name="cpuField" id="id_cpuField" value="{{cpu}}" autocomplete="off" data-ajax-select="autocomplete" data-plugin-options="{&quot;min_length&quot;: 1, &quot;html&quot;: true, &quot;source&quot;: &quot;/builds/autocomplete/ajax_lookup/cpuListing&quot;}" maxlength="255" size="100" class="form-control input-md"/>
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="mobo_input">Motherboard</label>  
+                <div class="col-md-6">
+					<input type="text" name="moboField" id="id_moboField" value="{{mobo}}" autocomplete="off" data-ajax-select="autocomplete" data-plugin-options="{&quot;min_length&quot;: 1, &quot;html&quot;: true, &quot;source&quot;: &quot;/builds/autocomplete/ajax_lookup/moboListing&quot;}" maxlength="255" size="100" class="form-control input-md"/> 
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="mem_input">Memory</label>  
+                <div class="col-md-6">
+					<input type="text" name="memField" id="id_memField" value="{{mem}}" autocomplete="off" data-ajax-select="autocomplete" data-plugin-options="{&quot;min_length&quot;: 1, &quot;html&quot;: true, &quot;source&quot;: &quot;/builds/autocomplete/ajax_lookup/memListing&quot;}" maxlength="255" size="100" class="form-control input-md"/>    
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="gpu_input">Video Card</label>  
+                <div class="col-md-6">
+					<input type="text" name="gpuField" id="id_gpuField" value="{{gpu}}" autocomplete="off" data-ajax-select="autocomplete" data-plugin-options="{&quot;min_length&quot;: 1, &quot;html&quot;: true, &quot;source&quot;: &quot;/builds/autocomplete/ajax_lookup/gpuListing&quot;}" maxlength="255" size="100" class="form-control input-md"/>   
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="hdd_input">Hard Drive</label>  
+                <div class="col-md-6">
+					<input type="text" name="hdField" id="id_hdField" value="{{hdd}}" autocomplete="off" data-ajax-select="autocomplete" data-plugin-options="{&quot;min_length&quot;: 1, &quot;html&quot;: true, &quot;source&quot;: &quot;/builds/autocomplete/ajax_lookup/hdListing&quot;}" maxlength="255" size="100" class="form-control input-md"/>   
+            </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="case_input">Case</label>  
+                <div class="col-md-6">
+					<input type="text" name="caseField" id="id_caseField" value="{{case}}" autocomplete="off" data-ajax-select="autocomplete" data-plugin-options="{&quot;min_length&quot;: 1, &quot;html&quot;: true, &quot;source&quot;: &quot;/builds/autocomplete/ajax_lookup/caseListing&quot;}" maxlength="255" size="100" class="form-control input-md"/>  
+                </div>
+            </div>
+
+       
+          <!-- Selection Input -->
+         <div class="form-group">
+                <label class="col-md-4 control-label" for="access_right">Access Right</label>  
+                <div class="col-md-6">
+                    <select name="access_right" placeholder="access_right" class = "form_control">
+                      {% if private %}
+                      <option value = "pub"> Public </option>
+                      <option value = "pri" selected = 'selected'> Private </option>
+                      {% else %}
+                      <option value = "pub" selected = 'selected'> Public </option>
+                      <option value = "pri"> Private </option>
+                      {% endif %}
+                    </select>
+                </div>
+            </div>
+          
+
+            <div class="form-group">
+    		<div class="col-sm-offset-2 col-sm-10">
+      			<button type="Submit" class="btn btn-default">Save Build</button>
+    		</div>
+  	    </div>
+
+        </fieldset>
+    </form>
+
+
+{% endblock%}

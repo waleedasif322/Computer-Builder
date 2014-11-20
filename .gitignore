@@ -1,0 +1,9 @@
+*.orig
+*.pyc
+*.txt~
+*.py~
+*.sqlite3
+*.seg
+*.html~
+*.toc
+*.rst~

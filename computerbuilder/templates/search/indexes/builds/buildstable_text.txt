@@ -1,0 +1,10 @@
+{{object.name}}
+{{object.moboPart}}
+{{object.cpuPart}}
+{{object.casePart}}
+{{object.hdPart}}
+{{object.gpuListing}}
+{{object.user}}
+{{object.time}}
+{{object.access_r}}
+

@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block list %}
+          <ul class="nav nav-sidebar">
+            <li><a href="/builds/home">Home</a></li>
+ 
+            <li><a href="/builds/mybuilds">My Builds</a></li>
+	    <li><a href="/builds/public_builds">Public Builds</a></li>
+            <li class = "active"><a href="/builds/new_build">Create New Builds</a></li>
+            <li><a href="/builds/edit">Edit Build</a></li>
+          </ul>
+	      {% endblock %}
+
+{% block bodycontent %}
+
+
+
+
+{% if entered %}
+<p>You entered: <blockquote>{{ entered }}</blockquote></p>
+{% endif %}
+
+<form method="POST" action="/builds/build_confirmation/"> {% csrf_token %}
+            <!-- Form Name -->
+            <legend>New Build</legend>
+            <table>
+		<tr>
+            <!-- Text Input -->
+            <div class="form-group">
+                <label>Build Name</label> 
+                
+                    <input id="name_input" name="name_input" placeholder="Name your Build" class="form-control input-md" type="text" required>
+            </div>    
+            
+            <br>
+            <br>
+
+	    {{ form }}
+
+		
+			<th></th><td>         <!-- Selection Input -->
+         		<div class="form-group">
+                	<label class="col-md-4 control-label" for="access_right">Access Right</label>  
+                <div class="col-md-6">
+                    <select name="access_right" placeholder="access_right" class = "form_control">
+                      <option value = "pub"> Public </option>
+                      <option value = "pri"> Private </option>
+                    </select>
+                </div>
+            </div></td>
+<th></th><td><input type="submit" class="btn btn-default"/></td>
+</tr>
+</table>
+
+</form>
+
+
+
+{% endblock%}
