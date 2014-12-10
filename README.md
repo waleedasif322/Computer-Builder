@@ -1,6 +1,8 @@
 Computer-Builder
 ================
 
+Credits: Mohammad Gueye, Waleed Asif
+
 A computer builder web app written in Python/Django.
 
 Run locally by installing requirements:
